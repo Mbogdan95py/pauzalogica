@@ -11,29 +11,28 @@
 
 ### Ce e deja gata — nu mai trebuie să faci nimic aici
 - ✅ Codul complet, testat, build de producție
-- ✅ Urcat pe GitHub (privat): https://github.com/Mbogdan95py/pauzalogica
-- ✅ Găzduit pe Cloudflare Pages (gratuit)
-- ✅ Domeniul `pauzalogica.ro` cumpărat + DNS pe Cloudflare + certificat HTTPS
+- ✅ Urcat pe GitHub (**public** — ca Actions să fie gratuit și nelimitat): https://github.com/Mbogdan95py/pauzalogica
+- ✅ Găzduit pe Cloudflare Pages (gratuit) + domeniul `pauzalogica.ro` cu HTTPS
+- ✅ **Deploy automat** la fiecare push (GitHub Actions → Cloudflare) — funcțional ✅
+- ✅ **Generare conținut zilnică** (GitHub Actions, 02:10) → deploy automat ✅
 - ✅ 42 de zile de conținut (buffer ~21 zile în avans)
 - ✅ Pagini legale, consimțământ cookie, SEO, accesibilitate
 
-**Poți să te oprești aici.** Site-ul merge singur săptămâni bune. Restul e bonus.
+**Totul e automat.** Nu mai trebuie să faci nimic — site-ul se actualizează singur.
 
 ---
 
 ## 🟡 CE MAI POȚI FACE (opțional, în ordinea utilității)
 
-### 1. Auto-deploy zilnic — RECOMANDAT (gratuit, ~2 minute)
-**De ce:** ca site-ul să se **reîmprospăteze singur** când se generează conținut nou. Fără asta, conținutul nou apare pe site doar când rulezi tu `npm run deploy:cf` manual.
+### 1. Auto-deploy + generare zilnică — ✅ GATA (deja funcționează)
+Ai adăugat deja secretul `CLOUDFLARE_API_TOKEN` în GitHub, iar repo-ul e public
+(Actions gratuit nelimitat). Deci:
+- La fiecare `git push` → GitHub Actions reface și redeployază site-ul automat.
+- Zilnic la 02:10 → generează conținut nou, îl comite și redeployază.
 
-**Pași:**
-1. Cloudflare → colț dreapta-sus click pe **iconița de profil** → **My Profile** → **API Tokens** → **Create Token**
-2. Alege șablonul **„Edit Cloudflare Pages"** → **Continue to summary** → **Create Token** → **copiază** token-ul (îl vezi o singură dată!)
-3. GitHub → repo `pauzalogica` → **Settings** → (stânga) **Secrets and variables** → **Actions** → **New repository secret**
-   - **Name:** `CLOUDFLARE_API_TOKEN`
-   - **Secret:** (lipești token-ul copiat)
-   - **Add secret**
-4. Gata. De acum, la fiecare modificare (și la conținutul zilnic), site-ul se reface automat.
+**Nu mai ai nimic de făcut aici.** (Dacă vreodată Actions se blochează din nou,
+există scriptul de rezervă `scripts/daily-local.ps1` — îl poți programa local cu:
+`schtasks /create /tn "PauzaLogica Daily" /tr "powershell -File \"%CD%\scripts\daily-local.ps1\"" /sc daily /st 00:00`)
 
 ---
 
