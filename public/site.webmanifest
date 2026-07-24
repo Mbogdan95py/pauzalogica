@@ -1,0 +1,13 @@
+{
+  "name": "Careu.ro — Jocuri zilnice de logică și cuvinte",
+  "short_name": "Careu.ro",
+  "description": "Jocuri zilnice gratuite de logică și cuvinte în limba română. Fără cont.",
+  "lang": "ro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1b2a4a",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

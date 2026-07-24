@@ -1,0 +1,106 @@
+name: Generează conținut zilnic
+
+# Runs every day at 02:10 Europe/Bucharest. GitHub cron is UTC, and Bucharest is
+# UTC+2 (EET) / UTC+3 (EEST). We schedule both 00:10 and 23:10 UTC so the job
+# fires at 02:10 local year-round; the generator itself is idempotent, so the
+# "extra" run each day simply finds the buffer already full and does nothing.
+on:
+  schedule:
+    - cron: '10 0 * * *'   # 02:10 EET (winter)
+    - cron: '10 23 * * *'  # 02:10 EEST (summer)
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Generează o singură zi (YYYY-MM-DD). Gol = azi + lookahead.'
+        required: false
+      force:
+        description: 'Regenerează chiar dacă pachetul există (true/false)'
+        required: false
+        default: 'false'
+
+# Prevent overlapping runs from racing on the content directory / commit.
+concurrency:
+  group: generate-daily
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies (locked)
+        run: npm ci
+
+      - name: Generate content
+        env:
+          CONTENT_AI_MODE: ${{ secrets.OPENAI_API_KEY != '' && 'real' || 'mock' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_PRIMARY_MODEL: ${{ secrets.OPENAI_PRIMARY_MODEL || 'gpt-5.6-luna' }}
+          OPENAI_FALLBACK_MODEL: ${{ secrets.OPENAI_FALLBACK_MODEL || 'gpt-5.6-terra' }}
+          CONTENT_GENERATION_SECRET: ${{ secrets.CONTENT_GENERATION_SECRET }}
+          CONTENT_TZ: Europe/Bucharest
+          # Full anti-repeat windows in production (see docs/content-pipeline.md).
+          CAREU_DEDUP_DEFINITION: '180'
+          CAREU_DEDUP_ANSWER: '180'
+          CAREU_DEDUP_THEME: '60'
+          CAREU_DEDUP_WORDSET: '60'
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            EXTRA="--date=${{ github.event.inputs.date }}"
+          else
+            EXTRA="--fill-buffer"
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            EXTRA="$EXTRA --force"
+          fi
+          npm run generate -- $EXTRA
+
+      - name: Validate all content
+        run: npm run validate
+
+      - name: Run puzzle-engine tests
+        run: npm run test -- tests/unit tests/integration
+
+      - name: Check for new content
+        id: diff
+        run: |
+          git add content/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nu există conținut nou de comis."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit new content
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "careu-bot"
+          git config user.email "bot@careu.ro"
+          COUNT=$(git diff --cached --name-only -- 'content/daily/*.json' | wc -l | tr -d ' ')
+          git commit -m "content: pachete zilnice noi ($COUNT fișiere) [skip ci]"
+          git push
+
+      # Deployment: Vercel/Cloudflare auto-redeploy on push. Uncomment to trigger
+      # an explicit deploy hook instead.
+      # - name: Trigger redeploy
+      #   if: steps.diff.outputs.changed == 'true' && env.DEPLOY_HOOK != ''
+      #   env:
+      #     DEPLOY_HOOK: ${{ secrets.DEPLOY_HOOK_URL }}
+      #   run: curl -fsS -X POST "$DEPLOY_HOOK"
+
+      - name: Content status summary
+        if: always()
+        run: npm run content:status || true

@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-07-24T10:37:21.879Z",
+  "today": "2026-07-24",
+  "totalPackages": 42,
+  "bufferDays": 21,
+  "nextAvailableDate": "2026-07-25",
+  "latestDate": "2026-08-14",
+  "validatedGames": 252,
+  "fallbackDays": 0,
+  "lastRunAt": "2026-07-24T10:37:21.862Z",
+  "lastRunOk": true
+}
