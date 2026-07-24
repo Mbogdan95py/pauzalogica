@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/ui/seo';
 
 export const metadata = buildMetadata({
   title: 'Setări',
-  description: 'Setări Careu.ro: temă, accesibilitate, gestionarea progresului local și a statisticilor.',
+  description: 'Setări PauzaLogica.ro: temă, accesibilitate, gestionarea progresului local și a statisticilor.',
   path: '/setari',
   noindex: true,
 });

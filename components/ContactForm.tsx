@@ -7,10 +7,10 @@ import { useState } from 'react';
  * visitor's own mail client sends the message. No backend, no data collected by
  * us. `kind` tweaks the subject/labels.
  */
-export function ContactForm({ kind = 'contact', to = 'contact@careu.ro' }: { kind?: 'contact' | 'suggestion'; to?: string }) {
+export function ContactForm({ kind = 'contact', to = 'contact@pauzalogica.ro' }: { kind?: 'contact' | 'suggestion'; to?: string }) {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
-  const subject = kind === 'suggestion' ? 'Sugestie Careu.ro' : 'Mesaj Careu.ro';
+  const subject = kind === 'suggestion' ? 'Sugestie PauzaLogica.ro' : 'Mesaj PauzaLogica.ro';
 
   const mailto = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
     `${message}\n\n— ${name || 'Un vizitator'}`,

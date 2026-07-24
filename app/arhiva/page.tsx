@@ -7,7 +7,7 @@ import { AdLeaderboard } from '@/components/ads/Ads';
 export const metadata = buildMetadata({
   title: 'Arhivă',
   description:
-    'Arhiva completă a jocurilor Careu.ro. Filtrează după joc, dificultate sau lună și joacă provocările din zilele trecute.',
+    'Arhiva completă a jocurilor PauzaLogica.ro. Filtrează după joc, dificultate sau lună și joacă provocările din zilele trecute.',
   path: '/arhiva',
 });
 

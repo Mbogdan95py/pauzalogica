@@ -97,7 +97,7 @@ export function QuickChallengeBoard({ game }: { game: QuickChallengeGame }) {
   const shareGrid = guesses.map((g) => marks(g).map((m) => MARK_EMOJI[m]).join('')).join('\n');
 
   const doShare = async () => {
-    const header = `Careu.ro — Provocarea rapidă ${won ? guesses.length : 'X'}/${maxAttempts}`;
+    const header = `PauzaLogica.ro — Provocarea rapidă ${won ? guesses.length : 'X'}/${maxAttempts}`;
     const text = buildShareText({
       gameLabel: 'Provocarea rapidă',
       date,

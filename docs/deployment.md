@@ -38,7 +38,7 @@ GitHub Actions (02:10) ──generează+comite content/── push ──▶ hos
 npm ci
 npm run generate -- --fill-buffer   # asigură bufferul
 npm run build                        # produce ./out
-# copiază ./out pe server (ex. rsync out/ user@host:/var/www/careu)
+# copiază ./out pe server (ex. rsync out/ user@host:/var/www/pauzalogica)
 ```
 
 Recomandări:

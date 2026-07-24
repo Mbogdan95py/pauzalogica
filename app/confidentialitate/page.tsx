@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/ui/seo';
 
 export const metadata = buildMetadata({
   title: 'Politica de confidențialitate',
-  description: 'Cum tratează Careu.ro datele: fără conturi, progres păstrat local pe dispozitiv, reclame doar cu consimțământ.',
+  description: 'Cum tratează PauzaLogica.ro datele: fără conturi, progres păstrat local pe dispozitiv, reclame doar cu consimțământ.',
   path: '/confidentialitate',
 });
 
@@ -15,7 +15,7 @@ export default function Page() {
       crumbs={[{ name: 'Acasă', href: '/' }, { name: 'Confidențialitate', href: '/confidentialitate' }]}
     >
       <p>
-        Careu.ro este conceput cu respect pentru confidențialitate. Nu solicităm conturi, nu cerem date
+        PauzaLogica.ro este conceput cu respect pentru confidențialitate. Nu solicităm conturi, nu cerem date
         personale și nu construim profiluri de utilizator.
       </p>
       <h2 className="text-xl font-bold">Datele păstrate pe dispozitiv</h2>
@@ -43,8 +43,8 @@ export default function Page() {
       <p>
         Deoarece nu colectăm date personale pe server, nu există un cont de gestionat. Poți controla complet
         informațiile locale direct din browser. Pentru orice întrebare, scrie-ne la{' '}
-        <a href="mailto:contact@careu.ro" className="font-semibold text-brand-ink underline">
-          contact@careu.ro
+        <a href="mailto:contact@pauzalogica.ro" className="font-semibold text-brand-ink underline">
+          contact@pauzalogica.ro
         </a>
         .
       </p>

@@ -88,7 +88,7 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "careu-bot"
-          git config user.email "bot@careu.ro"
+          git config user.email "bot@pauzalogica.ro"
           COUNT=$(git diff --cached --name-only -- 'content/daily/*.json' | wc -l | tr -d ' ')
           # Fără [skip ci]: push-ul trebuie să declanșeze redeploy-ul pe host.
           # CI-ul (ci.yml) ignoră oricum modificările din content/ (paths-ignore).

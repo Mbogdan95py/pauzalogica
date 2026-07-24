@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/ui/seo';
 
 export const metadata = buildMetadata({
   title: 'Politica de cookie-uri',
-  description: 'Ce cookie-uri folosește Careu.ro: esențiale pentru funcționare și, cu acordul tău, pentru reclame.',
+  description: 'Ce cookie-uri folosește PauzaLogica.ro: esențiale pentru funcționare și, cu acordul tău, pentru reclame.',
   path: '/cookie-uri',
 });
 

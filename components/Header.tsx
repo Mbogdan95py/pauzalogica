@@ -26,10 +26,10 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-surface/90 backdrop-blur">
       <div className="container-page flex h-16 items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-2 font-extrabold text-xl tracking-tight" aria-label="Careu.ro — Acasă">
+        <Link href="/" className="flex items-center gap-2 font-extrabold text-lg tracking-tight sm:text-xl" aria-label="PauzaLogica.ro — Acasă">
           <Logo />
           <span>
-            Careu<span className="text-brand">.ro</span>
+            PauzaLogica<span className="text-brand">.ro</span>
           </span>
         </Link>
 

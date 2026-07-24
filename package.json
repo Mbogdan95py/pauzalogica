@@ -1,8 +1,8 @@
 {
-  "name": "careu-ro",
+  "name": "pauzalogica-ro",
   "version": "1.0.0",
   "private": true,
-  "description": "Careu.ro — platformă gratuită de jocuri zilnice de logică și cuvinte în limba română.",
+  "description": "PauzaLogica.ro — platformă gratuită de jocuri zilnice de logică și cuvinte în limba română.",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=20.0.0"
@@ -20,7 +20,7 @@
     "generate:demo": "tsx scripts/generate-demo-content.ts",
     "validate": "tsx scripts/validate-all-content.ts",
     "content:status": "tsx scripts/content-status.ts",
-    "deploy:cf": "next build && npx --yes wrangler pages deploy out --project-name=careu-ro"
+    "deploy:cf": "next build && npx --yes wrangler pages deploy out --project-name=pauzalogica-ro"
   },
   "dependencies": {
     "next": "14.2.15",

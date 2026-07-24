@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/ui/seo';
 
 export const metadata = buildMetadata({
   title: 'Contact',
-  description: 'Contactează echipa Careu.ro. Trimite-ne un mesaj despre jocuri, probleme tehnice sau colaborări.',
+  description: 'Contactează echipa PauzaLogica.ro. Trimite-ne un mesaj despre jocuri, probleme tehnice sau colaborări.',
   path: '/contact',
 });
 
@@ -17,8 +17,8 @@ export default function Page() {
     >
       <p>
         Ne poți scrie direct la{' '}
-        <a href="mailto:contact@careu.ro" className="font-semibold text-brand-ink underline">
-          contact@careu.ro
+        <a href="mailto:contact@pauzalogica.ro" className="font-semibold text-brand-ink underline">
+          contact@pauzalogica.ro
         </a>{' '}
         sau folosind formularul de mai jos.
       </p>

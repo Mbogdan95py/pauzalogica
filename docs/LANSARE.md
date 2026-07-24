@@ -1,4 +1,4 @@
-# 🚀 Ghid de lansare Careu.ro (varianta gratuită)
+# 🚀 Ghid de lansare PauzaLogica.ro (varianta gratuită)
 
 Tot codul și configurația sunt gata. Mai jos ai **exact** ce ai de făcut tu.
 Pașii marcați cu 🔴 **DOAR TU** cer contul/cardul tău (nu pot fi automatizați).
@@ -18,14 +18,14 @@ Timp estimat până e live: **~15 minute**. Cost ca să pornești: **0 lei**.
 ## Pasul 1 — GitHub (gratuit) 🔴 DOAR TU: cont + accept
 Găzduiește codul și rulează automatizarea zilnică.
 
-1. Fă-ți cont pe **github.com** (dacă n-ai) și creează un **repository nou**, gol, numit `careu` (poate fi privat).
+1. Fă-ți cont pe **github.com** (dacă n-ai) și creează un **repository nou**, gol, numit `pauzalogica` (poate fi privat).
 2. În terminal, în folderul proiectului, rulează (înlocuiește `USER`):
    ```bash
    git branch -M main
-   git remote add origin https://github.com/USER/careu.git
+   git remote add origin https://github.com/USER/pauzalogica.git
    git push -u origin main
    ```
-   > Dacă `origin` există deja: `git remote set-url origin https://github.com/USER/careu.git` apoi `git push -u origin main`.
+   > Dacă `origin` există deja: `git remote set-url origin https://github.com/USER/pauzalogica.git` apoi `git push -u origin main`.
 
 ---
 
@@ -33,7 +33,7 @@ Găzduiește codul și rulează automatizarea zilnică.
 Publică site-ul și îl reface automat când apare conținut nou.
 
 1. Cont pe **dash.cloudflare.com** (gratuit).
-2. *Workers & Pages* → **Create** → **Pages** → **Connect to Git** → alege repo-ul `careu`.
+2. *Workers & Pages* → **Create** → **Pages** → **Connect to Git** → alege repo-ul `pauzalogica`.
 3. Setări de build (exact așa):
    | Câmp | Valoare |
    | --- | --- |
@@ -44,10 +44,10 @@ Publică site-ul și îl reface automat când apare conținut nou.
    | Nume | Valoare |
    | --- | --- |
    | `NODE_VERSION` | `20` |
-   | `NEXT_PUBLIC_SITE_URL` | `https://careu.pages.dev` (îl schimbi în `https://careu.ro` după ce ai domeniul) |
+   | `NEXT_PUBLIC_SITE_URL` | `https://pauzalogica-ro.pages.dev` (îl schimbi în `https://pauzalogica.ro` după ce ai domeniul) |
 5. **Save and Deploy**.
 
-✅ **Gata — site-ul e LIVE** pe `https://careu-ro.pages.dev` (gratuit, fără domeniu).
+✅ **Gata — site-ul e LIVE** pe `https://pauzalogica-ro.pages.dev` (gratuit, fără domeniu).
 De acum, în fiecare zi, GitHub Actions comite conținut nou → Cloudflare reface site-ul singur.
 
 > ⚡ Variantă și mai rapidă (fără GitHub, dar fără automatizare zilnică):
@@ -55,11 +55,11 @@ De acum, în fiecare zi, GitHub Actions comite conținut nou → Cloudflare refa
 
 ---
 
-## Pasul 3 — Domeniul `careu.ro` (opțional) 🔴 DOAR TU: plată (~12 €/an)
-Poți sări peste asta la început și folosi `careu.pages.dev`.
-1. Cumpără `careu.ro` de la **rotld.ro** sau un registrar (domenii.ro, GoDaddy).
-2. În Cloudflare Pages → proiectul tău → **Custom domains** → adaugă `careu.ro` și urmează instrucțiunile DNS.
-3. Schimbă `NEXT_PUBLIC_SITE_URL` în `https://careu.ro` (env var în Cloudflare) → redeploy.
+## Pasul 3 — Domeniul `pauzalogica.ro` (opțional) 🔴 DOAR TU: plată (~12 €/an)
+Poți sări peste asta la început și folosi `pauzalogica-ro.pages.dev`.
+1. Cumpără `pauzalogica.ro` de la **rotld.ro** sau un registrar (domenii.ro, GoDaddy).
+2. În Cloudflare Pages → proiectul tău → **Custom domains** → adaugă `pauzalogica.ro` și urmează instrucțiunile DNS.
+3. Schimbă `NEXT_PUBLIC_SITE_URL` în `https://pauzalogica.ro` (env var în Cloudflare) → redeploy.
 
 ---
 
@@ -73,7 +73,7 @@ Fără asta, conținutul se generează în modul `mock` (tot valid). Pentru teme
 ---
 
 ## Pasul 5 — Reclame / bani (când ești live) 🔴 DOAR TU: cont + accept
-1. Cont pe **adsense.google.com** → adaugă `careu.ro` (sau `careu.pages.dev`).
+1. Cont pe **adsense.google.com** → adaugă `pauzalogica.ro` (sau `pauzalogica-ro.pages.dev`).
 2. Aprobarea durează **zile–săptămâni** (site cu conținut + pagini legale = de obicei ok).
 3. După aprobare: creează *ad units* → notează **publisher ID** (`ca-pub-…`) și **slot ID**-urile.
 4. Completează **`public/ads.txt`** (înlocuiește `PUB_ID`, decomentează linia) → comite → push.
@@ -93,7 +93,7 @@ Reclamele apar **doar după** ce vizitatorul apasă „Accept toate" în banner 
 ## Rezumat: ce faci TU, în ordine
 1. 🔴 Cont GitHub + `git push` (Pasul 1) — **gratuit**
 2. 🔴 Cont Cloudflare + connect + deploy (Pasul 2) — **gratuit** → **LIVE**
-3. 🔴 (opțional) Cumperi `careu.ro` — **~12 €/an**
+3. 🔴 (opțional) Cumperi `pauzalogica.ro` — **~12 €/an**
 4. 🔴 (opțional) Cheie OpenAI — **~1–5 $/lună**
 5. 🔴 (bani) Cont AdSense + variabile — **gratuit, îți aduce venit**
 

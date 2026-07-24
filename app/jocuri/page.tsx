@@ -11,7 +11,7 @@ import { AdLeaderboard } from '@/components/ads/Ads';
 export const metadata = buildMetadata({
   title: 'Toate jocurile',
   description:
-    'Toate jocurile zilnice de logică și cuvinte de pe Careu.ro: Sudoku, rebus, cuvinte ascunse, nonograme, kakuro, anagrame, labirinturi, integrame și provocarea rapidă. Gratuit, fără cont.',
+    'Toate jocurile zilnice de logică și cuvinte de pe PauzaLogica.ro: Sudoku, rebus, cuvinte ascunse, nonograme, kakuro, anagrame, labirinturi, integrame și provocarea rapidă. Gratuit, fără cont.',
   path: '/jocuri',
 });
 

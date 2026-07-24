@@ -46,8 +46,8 @@ export const adsConfig = {
 };
 
 export const siteConfig = {
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://careu.ro',
-  name: 'Careu.ro',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://pauzalogica.ro',
+  name: 'PauzaLogica.ro',
   tagline: 'Jocuri zilnice de logică și cuvinte',
 };
 

@@ -13,7 +13,7 @@ export function Footer() {
           <div className="max-w-sm">
             <Link href="/" className="flex items-center gap-2 text-lg font-extrabold">
               <Logo className="h-7 w-7" />
-              Careu<span className="text-brand">.ro</span>
+              PauzaLogica<span className="text-brand">.ro</span>
             </Link>
             <p className="mt-3 text-sm text-muted">
               Jocuri zilnice de logică și cuvinte în limba română. Joacă gratuit, fără cont.
@@ -28,7 +28,7 @@ export function Footer() {
           </nav>
         </div>
         <div className="mt-8 flex flex-col-reverse items-start justify-between gap-4 border-t border-border pt-6 sm:flex-row sm:items-center">
-          <p className="text-sm text-muted">© {year} Careu.ro — Toate drepturile rezervate.</p>
+          <p className="text-sm text-muted">© {year} PauzaLogica.ro — Toate drepturile rezervate.</p>
           <FooterThemeToggle />
         </div>
       </div>

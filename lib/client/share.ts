@@ -17,7 +17,7 @@ export interface ShareParams {
 /**
  * Build the copyable result text. Never includes the solution/answer.
  * Example:
- *   CAREU.RO — 15 AUGUST
+ *   PAUZALOGICA.RO — 15 AUGUST
  *   Sudoku: 05:42
  *   Dificultate: Mediu
  *   Greșeli: 1
@@ -26,7 +26,7 @@ export interface ShareParams {
  */
 export function buildShareText(p: ShareParams): string {
   const lines = [
-    `CAREU.RO — ${formatRomanianDateUpper(p.date)}`,
+    `PAUZALOGICA.RO — ${formatRomanianDateUpper(p.date)}`,
     `${p.gameLabel}: ${formatDuration(p.timeMs)}`,
     `Dificultate: ${DIFFICULTY_LABEL[p.difficulty]}`,
     `Greșeli: ${p.mistakes}`,
@@ -34,14 +34,14 @@ export function buildShareText(p: ShareParams): string {
     `Serie locală: ${p.streak} ${p.streak === 1 ? 'zi' : 'zile'}`,
   ];
   if (p.grid) lines.push('', p.grid);
-  lines.push('', 'https://careu.ro');
+  lines.push('', 'https://pauzalogica.ro');
   return lines.join('\n');
 }
 
 export type ShareOutcome = 'shared' | 'copied' | 'failed';
 
 /** Share via the Web Share API, falling back to clipboard copy. */
-export async function shareResult(text: string, title = 'Careu.ro'): Promise<ShareOutcome> {
+export async function shareResult(text: string, title = 'PauzaLogica.ro'): Promise<ShareOutcome> {
   if (typeof navigator !== 'undefined' && typeof navigator.share === 'function') {
     try {
       await navigator.share({ title, text });

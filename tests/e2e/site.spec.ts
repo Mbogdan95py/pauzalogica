@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 const TODAY = '2026-07-24';
 
-test.describe('Careu.ro core flows', () => {
+test.describe('PauzaLogica.ro core flows', () => {
   test('home page loads with the day\'s challenges and no account UI', async ({ page }) => {
     await page.goto('/');
     await expect(page.getByRole('heading', { name: 'Provocările de astăzi' })).toBeVisible();

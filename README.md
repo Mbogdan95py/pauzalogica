@@ -1,4 +1,4 @@
-# Careu.ro
+# PauzaLogica.ro
 
 Platformă gratuită, în limba română, cu **jocuri zilnice de logică și cuvinte**: Sudoku, rebus, cuvinte
 ascunse, nonograme, Kakuro, labirinturi, anagrame, integrame, secvențe logice, cuvânt misterios și o
@@ -102,7 +102,7 @@ Aplicația web **nu are nevoie de niciun secret**. Secretele AI sunt folosite do
 | `CONTENT_LOOKAHEAD_DAYS` | `14` | câte zile în avans se generează (buffer) |
 | `CONTENT_TZ` | `Europe/Bucharest` | fusul orar pentru „azi” |
 | `CONTENT_SAVE_RAW` | `false` | salvează răspunsul AI brut pe disc (doar în dev) |
-| `NEXT_PUBLIC_SITE_URL` | `https://careu.ro` | URL canonic pentru SEO |
+| `NEXT_PUBLIC_SITE_URL` | `https://pauzalogica.ro` | URL canonic pentru SEO |
 | `NEXT_PUBLIC_ADS_ENABLED` | `false` | activează scriptul de reclame |
 | `NEXT_PUBLIC_AD_CLIENT` | — | id-ul publisher AdSense (`ca-pub-…`) |
 | `CAREU_DEDUP_*` | vezi mai jos | ferestre anti-repetare (zile) |
@@ -299,4 +299,4 @@ ascunse din dicționarul local.
 
 ## Licență
 
-UNLICENSED — cod proprietar Careu.ro.
+UNLICENSED — cod proprietar PauzaLogica.ro.

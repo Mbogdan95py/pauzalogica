@@ -6,7 +6,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 
 export const metadata = buildMetadata({
   title: 'Status conținut',
-  description: 'Stare tehnică a generării de conținut Careu.ro.',
+  description: 'Stare tehnică a generării de conținut PauzaLogica.ro.',
   path: '/status-content',
   noindex: true,
 });

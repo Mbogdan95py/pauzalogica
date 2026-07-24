@@ -14,9 +14,9 @@ export const metadata: Metadata = {
     template: `%s · ${siteConfig.name}`,
   },
   description:
-    'Careu.ro — jocuri zilnice gratuite de logică și cuvinte în limba română: Sudoku, rebus, cuvinte ascunse, nonograme, kakuro și multe altele. Joacă fără cont.',
+    'PauzaLogica.ro — jocuri zilnice gratuite de logică și cuvinte în limba română: Sudoku, rebus, cuvinte ascunse, nonograme, kakuro și multe altele. Joacă fără cont.',
   applicationName: siteConfig.name,
-  authors: [{ name: 'Careu.ro' }],
+  authors: [{ name: 'PauzaLogica.ro' }],
   icons: { icon: '/favicon.svg' },
   manifest: '/site.webmanifest',
 };

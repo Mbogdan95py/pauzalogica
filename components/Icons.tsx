@@ -2,7 +2,7 @@ import type { GameType } from '@/lib/schema/common';
 
 type IconProps = { className?: string };
 
-/** Careu.ro logo mark — a navy crossword tile with one amber cell. */
+/** PauzaLogica.ro logo mark — a navy crossword tile with one amber cell. */
 export function Logo({ className = 'h-8 w-8' }: IconProps) {
   return (
     <svg viewBox="0 0 100 100" className={className} aria-hidden="true">

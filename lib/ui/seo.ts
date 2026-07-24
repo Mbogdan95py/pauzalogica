@@ -18,7 +18,7 @@ export interface PageSeo {
 /** Build consistent per-page metadata (canonical, Open Graph, Twitter). */
 export function buildMetadata({ title, description, path, ogType = 'website', noindex }: PageSeo): Metadata {
   const url = absoluteUrl(path);
-  // The root layout's title template appends " · Careu.ro", so `title` stays
+  // The root layout's title template appends " · PauzaLogica.ro", so `title` stays
   // bare here; the OG/Twitter titles get the full form explicitly.
   const ogTitle = `${title} · ${siteConfig.name}`;
   return {

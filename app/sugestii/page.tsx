@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/ui/seo';
 
 export const metadata = buildMetadata({
   title: 'Sugestii',
-  description: 'Propune un joc nou sau o îmbunătățire pentru Careu.ro. Ideile tale ne ajută să facem platforma mai bună.',
+  description: 'Propune un joc nou sau o îmbunătățire pentru PauzaLogica.ro. Ideile tale ne ajută să facem platforma mai bună.',
   path: '/sugestii',
 });
 
@@ -19,7 +19,7 @@ export default function Page() {
         Ne bucurăm de orice idee. Poți propune tipuri noi de jocuri, teme, niveluri de dificultate sau
         îmbunătățiri ale interfeței. Trimite-ne gândurile tale prin formularul de mai jos.
       </p>
-      <ContactForm kind="suggestion" to="sugestii@careu.ro" />
+      <ContactForm kind="suggestion" to="sugestii@pauzalogica.ro" />
     </ProsePage>
   );
 }

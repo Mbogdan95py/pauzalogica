@@ -5,19 +5,19 @@ import { buildMetadata } from '@/lib/ui/seo';
 export const metadata = buildMetadata({
   title: 'Despre noi',
   description:
-    'Despre Careu.ro: o platformă gratuită de jocuri zilnice de logică și cuvinte în limba română, cu conținut generat și verificat automat. Fără cont, fără abonament.',
+    'Despre PauzaLogica.ro: o platformă gratuită de jocuri zilnice de logică și cuvinte în limba română, cu conținut generat și verificat automat. Fără cont, fără abonament.',
   path: '/despre',
 });
 
 export default function Page() {
   return (
     <ProsePage
-      title="Despre Careu.ro"
+      title="Despre PauzaLogica.ro"
       intro="O platformă gratuită cu jocuri zilnice de logică și cuvinte în limba română."
       crumbs={[{ name: 'Acasă', href: '/' }, { name: 'Despre noi', href: '/despre' }]}
     >
       <p>
-        Careu.ro publică în fiecare zi un pachet de jocuri: Sudoku, rebus, cuvinte ascunse, nonograme și o
+        PauzaLogica.ro publică în fiecare zi un pachet de jocuri: Sudoku, rebus, cuvinte ascunse, nonograme și o
         provocare rapidă, plus un joc suplimentar care se rotește (Kakuro, anagrame, labirint, integrame și
         altele). Intri, joci și te relaxezi — atât de simplu.
       </p>

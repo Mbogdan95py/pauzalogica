@@ -25,7 +25,7 @@ export function generateMetadata({ params }: { params: { date: string } }): Meta
     title: `Jocurile din ${nice}`,
     description: pkg
       ? `${pkg.title} — ${pkg.games.length} jocuri de logică și cuvinte pentru ${nice}. Joacă gratuit, fără cont.`
-      : `Jocurile pentru ${nice} pe Careu.ro.`,
+      : `Jocurile pentru ${nice} pe PauzaLogica.ro.`,
     path: `/arhiva/${params.date}`,
     ogType: 'article',
   });
