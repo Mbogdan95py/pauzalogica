@@ -1,5 +1,22 @@
 # 🚀 Ghid de lansare PauzaLogica.ro (varianta gratuită)
 
+## ✅ STARE: SITE LIVE
+- **Cod pe GitHub:** https://github.com/Mbogdan95py/pauzalogica (privat)
+- **Site live:** https://pauzalogica-ro.pages.dev (Cloudflare Pages)
+- Deploy făcut prin `wrangler pages deploy`. Buffer de conținut: ~21 zile.
+
+### Activează deploy-ul automat zilnic (recomandat, 2 minute)
+Ca site-ul să se reîmprospăteze singur când Actions generează conținut nou:
+1. Cloudflare → **My Profile → API Tokens → Create Token** → șablon **„Edit Cloudflare Pages"** → Create → copiază token-ul.
+2. GitHub → repo `pauzalogica` → **Settings → Secrets and variables → Actions → New repository secret**:
+   - Name: `CLOUDFLARE_API_TOKEN`, Value: token-ul copiat.
+3. Gata. Workflow-ul `.github/workflows/deploy.yml` va reconstrui + redeploya la fiecare push (inclusiv commit-urile zilnice de conținut). Până adaugi secretul, deploy-ul e sărit (rulările rămân verzi).
+
+### Domeniul tău `pauzalogica.ro` (opțional, ~12 €/an)
+Cloudflare → proiectul Pages `pauzalogica-ro` → **Custom domains** → adaugă `pauzalogica.ro` → urmează DNS-ul. Apoi schimbă `NEXT_PUBLIC_SITE_URL` în `https://pauzalogica.ro` și redeploy.
+
+---
+
 Tot codul și configurația sunt gata. Mai jos ai **exact** ce ai de făcut tu.
 Pașii marcați cu 🔴 **DOAR TU** cer contul/cardul tău (nu pot fi automatizați).
 Timp estimat până e live: **~15 minute**. Cost ca să pornești: **0 lei**.
