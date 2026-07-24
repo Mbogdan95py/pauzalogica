@@ -1,117 +1,105 @@
-# 🚀 Ghid de lansare PauzaLogica.ro (varianta gratuită)
+# 🎉 PauzaLogica.ro — stare & ce mai ai de făcut
 
-## ✅ STARE: SITE LIVE
-- **Cod pe GitHub:** https://github.com/Mbogdan95py/pauzalogica (privat)
-- **Site live:** https://pauzalogica-ro.pages.dev (Cloudflare Pages)
-- Deploy făcut prin `wrangler pages deploy`. Buffer de conținut: ~21 zile.
-
-### Activează deploy-ul automat zilnic (recomandat, 2 minute)
-Ca site-ul să se reîmprospăteze singur când Actions generează conținut nou:
-1. Cloudflare → **My Profile → API Tokens → Create Token** → șablon **„Edit Cloudflare Pages"** → Create → copiază token-ul.
-2. GitHub → repo `pauzalogica` → **Settings → Secrets and variables → Actions → New repository secret**:
-   - Name: `CLOUDFLARE_API_TOKEN`, Value: token-ul copiat.
-3. Gata. Workflow-ul `.github/workflows/deploy.yml` va reconstrui + redeploya la fiecare push (inclusiv commit-urile zilnice de conținut). Până adaugi secretul, deploy-ul e sărit (rulările rămân verzi).
-
-### Domeniul tău `pauzalogica.ro` (opțional, ~12 €/an)
-Cloudflare → proiectul Pages `pauzalogica-ro` → **Custom domains** → adaugă `pauzalogica.ro` → urmează DNS-ul. Apoi schimbă `NEXT_PUBLIC_SITE_URL` în `https://pauzalogica.ro` și redeploy.
+> Ultima actualizare: 2026-07-24. Acest fișier îți spune simplu **ce e gata** și
+> **ce mai poți face** (totul de mai jos e OPȚIONAL — site-ul e deja live).
 
 ---
 
-Tot codul și configurația sunt gata. Mai jos ai **exact** ce ai de făcut tu.
-Pașii marcați cu 🔴 **DOAR TU** cer contul/cardul tău (nu pot fi automatizați).
-Timp estimat până e live: **~15 minute**. Cost ca să pornești: **0 lei**.
+## ✅ SITE-UL E LIVE
+🌐 **https://pauzalogica.ro** — funcțional, cu HTTPS, pe domeniul tău.
+(și pe https://pauzalogica-ro.pages.dev)
+
+### Ce e deja gata — nu mai trebuie să faci nimic aici
+- ✅ Codul complet, testat, build de producție
+- ✅ Urcat pe GitHub (privat): https://github.com/Mbogdan95py/pauzalogica
+- ✅ Găzduit pe Cloudflare Pages (gratuit)
+- ✅ Domeniul `pauzalogica.ro` cumpărat + DNS pe Cloudflare + certificat HTTPS
+- ✅ 42 de zile de conținut (buffer ~21 zile în avans)
+- ✅ Pagini legale, consimțământ cookie, SEO, accesibilitate
+
+**Poți să te oprești aici.** Site-ul merge singur săptămâni bune. Restul e bonus.
 
 ---
 
-## Ce e deja pregătit (nu trebuie să faci nimic aici)
-- ✅ Site complet, testat, build de producție funcțional (`out/`)
-- ✅ 42 de zile de conținut + automatizare zilnică (GitHub Actions)
-- ✅ Configurare hosting: `wrangler.toml` (Cloudflare), `vercel.json` (Vercel)
-- ✅ Consimțământ cookie + pagini legale + `ads.txt` (șablon)
-- ✅ Cod comis în git (branch `main`... vezi Pasul 1)
+## 🟡 CE MAI POȚI FACE (opțional, în ordinea utilității)
+
+### 1. Auto-deploy zilnic — RECOMANDAT (gratuit, ~2 minute)
+**De ce:** ca site-ul să se **reîmprospăteze singur** când se generează conținut nou. Fără asta, conținutul nou apare pe site doar când rulezi tu `npm run deploy:cf` manual.
+
+**Pași:**
+1. Cloudflare → colț dreapta-sus click pe **iconița de profil** → **My Profile** → **API Tokens** → **Create Token**
+2. Alege șablonul **„Edit Cloudflare Pages"** → **Continue to summary** → **Create Token** → **copiază** token-ul (îl vezi o singură dată!)
+3. GitHub → repo `pauzalogica` → **Settings** → (stânga) **Secrets and variables** → **Actions** → **New repository secret**
+   - **Name:** `CLOUDFLARE_API_TOKEN`
+   - **Secret:** (lipești token-ul copiat)
+   - **Add secret**
+4. Gata. De acum, la fiecare modificare (și la conținutul zilnic), site-ul se reface automat.
 
 ---
 
-## Pasul 1 — GitHub (gratuit) 🔴 DOAR TU: cont + accept
-Găzduiește codul și rulează automatizarea zilnică.
+### 2. Reclame = bani (când vrei venit din site)
+**De ce:** momentan pe site apar doar căsuțele goale „RECLAMĂ". Ca să faci bani, îți trebuie un cont de publicitate.
 
-1. Fă-ți cont pe **github.com** (dacă n-ai) și creează un **repository nou**, gol, numit `pauzalogica` (poate fi privat).
-2. În terminal, în folderul proiectului, rulează (înlocuiește `USER`):
-   ```bash
-   git branch -M main
-   git remote add origin https://github.com/USER/pauzalogica.git
-   git push -u origin main
+**Pași:**
+1. Cont pe **adsense.google.com** → adaugă `pauzalogica.ro`
+2. Aprobarea durează **zile–săptămâni** (site cu conținut + pagini legale = de obicei ok)
+3. După aprobare primești: **publisher ID** (`ca-pub-…`) și **slot ID**-uri pentru fiecare reclamă
+4. Completează fișierul **`public/ads.txt`** cu publisher ID-ul tău → `git push`
+5. Cloudflare → proiectul Pages `pauzalogica-ro` → **Settings** → **Variables and Secrets** → adaugă:
    ```
-   > Dacă `origin` există deja: `git remote set-url origin https://github.com/USER/pauzalogica.git` apoi `git push -u origin main`.
-
----
-
-## Pasul 2 — Cloudflare Pages (gratuit) 🔴 DOAR TU: cont + connect
-Publică site-ul și îl reface automat când apare conținut nou.
-
-1. Cont pe **dash.cloudflare.com** (gratuit).
-2. *Workers & Pages* → **Create** → **Pages** → **Connect to Git** → alege repo-ul `pauzalogica`.
-3. Setări de build (exact așa):
-   | Câmp | Valoare |
-   | --- | --- |
-   | Framework preset | **None** |
-   | Build command | `npm run build` |
-   | Build output directory | `out` |
-4. **Environment variables** → adaugă:
-   | Nume | Valoare |
-   | --- | --- |
-   | `NODE_VERSION` | `20` |
-   | `NEXT_PUBLIC_SITE_URL` | `https://pauzalogica-ro.pages.dev` (îl schimbi în `https://pauzalogica.ro` după ce ai domeniul) |
-5. **Save and Deploy**.
-
-✅ **Gata — site-ul e LIVE** pe `https://pauzalogica-ro.pages.dev` (gratuit, fără domeniu).
-De acum, în fiecare zi, GitHub Actions comite conținut nou → Cloudflare reface site-ul singur.
-
-> ⚡ Variantă și mai rapidă (fără GitHub, dar fără automatizare zilnică):
-> după `npx wrangler login` (un click în browser), rulează `npm run deploy:cf`.
-
----
-
-## Pasul 3 — Domeniul `pauzalogica.ro` (opțional) 🔴 DOAR TU: plată (~12 €/an)
-Poți sări peste asta la început și folosi `pauzalogica-ro.pages.dev`.
-1. Cumpără `pauzalogica.ro` de la **rotld.ro** sau un registrar (domenii.ro, GoDaddy).
-2. În Cloudflare Pages → proiectul tău → **Custom domains** → adaugă `pauzalogica.ro` și urmează instrucțiunile DNS.
-3. Schimbă `NEXT_PUBLIC_SITE_URL` în `https://pauzalogica.ro` (env var în Cloudflare) → redeploy.
-
----
-
-## Pasul 4 — AI real pentru conținut (opțional) 🔴 DOAR TU: cont + plată
-Fără asta, conținutul se generează în modul `mock` (tot valid). Pentru teme/definiții scrise de AI:
-1. Cheie pe **platform.openai.com** (cost ~1–5 $/lună).
-2. GitHub → repo → *Settings → Secrets and variables → Actions* → **New secret**:
-   `OPENAI_API_KEY` = cheia ta.
-3. Gata — următoarea rulare zilnică folosește AI-ul automat.
-
----
-
-## Pasul 5 — Reclame / bani (când ești live) 🔴 DOAR TU: cont + accept
-1. Cont pe **adsense.google.com** → adaugă `pauzalogica.ro` (sau `pauzalogica-ro.pages.dev`).
-2. Aprobarea durează **zile–săptămâni** (site cu conținut + pagini legale = de obicei ok).
-3. După aprobare: creează *ad units* → notează **publisher ID** (`ca-pub-…`) și **slot ID**-urile.
-4. Completează **`public/ads.txt`** (înlocuiește `PUB_ID`, decomentează linia) → comite → push.
-5. În Cloudflare Pages → **Environment variables** → adaugă și **redeploy**:
+   NEXT_PUBLIC_ADS_ENABLED = true
+   NEXT_PUBLIC_AD_CLIENT = ca-pub-XXXXXXXXXXXXXXXX
+   NEXT_PUBLIC_AD_SLOT_LEADERBOARD = ...
+   NEXT_PUBLIC_AD_SLOT_RECTANGLE = ...
+   NEXT_PUBLIC_AD_SLOT_INCONTENT = ...
+   NEXT_PUBLIC_AD_SLOT_MOBILE = ...
    ```
-   NEXT_PUBLIC_ADS_ENABLED=true
-   NEXT_PUBLIC_AD_CLIENT=ca-pub-XXXXXXXXXXXXXXXX
-   NEXT_PUBLIC_AD_SLOT_LEADERBOARD=...
-   NEXT_PUBLIC_AD_SLOT_RECTANGLE=...
-   NEXT_PUBLIC_AD_SLOT_INCONTENT=...
-   NEXT_PUBLIC_AD_SLOT_MOBILE=...
-   ```
-Reclamele apar **doar după** ce vizitatorul apasă „Accept toate" în banner (GDPR).
+6. Redeploy (auto dacă ai făcut pasul 1, sau `npm run deploy:cf`)
+
+Reclamele apar **doar după** ce vizitatorul apasă „Accept toate" în banner (obligatoriu legal în UE).
 
 ---
 
-## Rezumat: ce faci TU, în ordine
-1. 🔴 Cont GitHub + `git push` (Pasul 1) — **gratuit**
-2. 🔴 Cont Cloudflare + connect + deploy (Pasul 2) — **gratuit** → **LIVE**
-3. 🔴 (opțional) Cumperi `pauzalogica.ro` — **~12 €/an**
-4. 🔴 (opțional) Cheie OpenAI — **~1–5 $/lună**
-5. 🔴 (bani) Cont AdSense + variabile — **gratuit, îți aduce venit**
+### 3. Adaugă și `www.pauzalogica.ro` (opțional, gratuit, 1 minut)
+Ca să meargă și cu „www" în față:
+- Cloudflare → **Workers & Pages** → `pauzalogica-ro` → **Custom domains** → **Set up a custom domain** → scrie `www.pauzalogica.ro` → Activate.
 
-Restul (cod, build, teste, conținut, automatizare, SEO, consimțământ) e **deja făcut**.
+---
+
+### 4. Conținut scris de AI în loc de „mock" (opțional, ~1–5 $/lună)
+Momentan temele/definițiile se generează local (valide, dar simple). Pentru text scris de AI:
+1. Cheie pe **platform.openai.com**
+2. GitHub → repo → **Settings → Secrets and variables → Actions → New secret**:
+   `OPENAI_API_KEY` = cheia ta
+3. Următoarea rulare zilnică folosește AI-ul automat.
+
+---
+
+## 🔧 Cum actualizez site-ul (când modific ceva)
+În folderul proiectului (`C:\Users\munte\Downloads\Careu ro`), în **cmd.exe** sau Git Bash:
+```bash
+git add -A
+git commit -m "ce am schimbat"
+git push
+```
+- Dacă ai făcut **pasul 1** (auto-deploy) → site-ul se reface singur după push.
+- Dacă NU → rulează și: `npm run deploy:cf` (reface + urcă site-ul pe Cloudflare).
+
+---
+
+## 📌 Date utile (contul tău)
+| | |
+|---|---|
+| Site live | https://pauzalogica.ro |
+| Cod | https://github.com/Mbogdan95py/pauzalogica (privat) |
+| Cloudflare Pages project | `pauzalogica-ro` |
+| Cloudflare Account ID | `28bb557afadff6799f8775f0d89a395b` |
+| Folder pe calculator | `C:\Users\munte\Downloads\Careu ro` |
+
+---
+
+### ❓ Nesigur ce să faci în continuare?
+Nimic obligatoriu. Recomandarea mea, în ordine:
+1. **Fă pasul 1** (auto-deploy) — ca să nu te mai atingi de nimic manual.
+2. Când vrei bani: **pasul 2** (AdSense).
+Atât. Restul merge singur. 🎊
