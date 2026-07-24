@@ -90,7 +90,9 @@ jobs:
           git config user.name "careu-bot"
           git config user.email "bot@careu.ro"
           COUNT=$(git diff --cached --name-only -- 'content/daily/*.json' | wc -l | tr -d ' ')
-          git commit -m "content: pachete zilnice noi ($COUNT fișiere) [skip ci]"
+          # Fără [skip ci]: push-ul trebuie să declanșeze redeploy-ul pe host.
+          # CI-ul (ci.yml) ignoră oricum modificările din content/ (paths-ignore).
+          git commit -m "content: pachete zilnice noi ($COUNT fișiere)"
           git push
 
       # Deployment: Vercel/Cloudflare auto-redeploy on push. Uncomment to trigger

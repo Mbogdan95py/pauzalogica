@@ -1,0 +1,5 @@
+# ads.txt — declară vânzătorii autorizați de reclame (cerut de AdSense).
+# După ce ai contul AdSense, înlocuiește PUB_ID cu id-ul tău (pub-XXXXXXXXXXXXXXXX)
+# și DECOMENTEAZĂ linia de mai jos (fără #). Apoi redeploy.
+#
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

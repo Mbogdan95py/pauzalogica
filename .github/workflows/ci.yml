@@ -3,6 +3,12 @@ name: CI
 on:
   push:
     branches: [main]
+    # Nu rula CI pentru commit-urile automate de conținut / documentație —
+    # acelea trebuie doar să declanșeze redeploy-ul pe host, nu testele.
+    paths-ignore:
+      - 'content/**'
+      - 'docs/**'
+      - '**/*.md'
   pull_request:
     branches: [main]
 
