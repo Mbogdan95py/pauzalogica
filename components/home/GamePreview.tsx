@@ -7,7 +7,16 @@ import type { GameType } from '@/lib/schema/common';
 export function GamePreview({ type }: { type: GameType }) {
   const common = 'h-full w-full';
   switch (type) {
-    case 'sudoku':
+    case 'sudoku': {
+      // Single digits, centered in a clean 3×3 grid (cell centers at 22.7/60/97.3).
+      const digits: Array<[string, number, number]> = [
+        ['5', 22.7, 22.7],
+        ['3', 60, 22.7],
+        ['7', 60, 60],
+        ['1', 97.3, 60],
+        ['9', 22.7, 97.3],
+        ['4', 97.3, 97.3],
+      ];
       return (
         <svg viewBox="0 0 120 120" className={common} aria-hidden="true">
           <rect x="4" y="4" width="112" height="112" rx="8" className="fill-surface stroke-border" />
@@ -17,13 +26,23 @@ export function GamePreview({ type }: { type: GameType }) {
               <line x1="4" y1={4 + i * 37.3} x2="116" y2={4 + i * 37.3} strokeWidth="1.5" />
             </g>
           ))}
-          {[['18', 22, 30], ['5', 55, 30], ['3', 92, 55], ['7', 30, 80], ['9', 80, 92], ['4', 55, 60]].map(([n, x, y], i) => (
-            <text key={i} x={x as number} y={y as number} className="fill-sudoku" fontSize="16" fontWeight="700" textAnchor="middle">
+          {digits.map(([n, x, y], i) => (
+            <text
+              key={i}
+              x={x}
+              y={y}
+              className="fill-sudoku"
+              fontSize="26"
+              fontWeight="700"
+              textAnchor="middle"
+              dominantBaseline="central"
+            >
               {n}
             </text>
           ))}
         </svg>
       );
+    }
     case 'rebus':
     case 'integrame':
     case 'careu':
