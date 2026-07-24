@@ -1,14 +1,9 @@
 name: Deploy (Cloudflare Pages)
 
-# Rebuilds and deploys the site to Cloudflare Pages on every push to main —
-# including the automated daily content commits. Until the CLOUDFLARE_API_TOKEN
-# secret is added the deploy steps are skipped (the run stays green), so the
-# workflow never fails just because it isn't configured yet.
-#
-# To enable: create a Cloudflare API token (My Profile → API Tokens →
-# "Edit Cloudflare Pages" template) and add it in GitHub as the repository
-# secret CLOUDFLARE_API_TOKEN. Account id below is public (it's in the
-# dashboard URL) so it is not a secret.
+# Rebuilds and deploys the site to Cloudflare Pages on every push to main,
+# including the automated daily content commits. Requires the repository secret
+# CLOUDFLARE_API_TOKEN (a Cloudflare API token with the "Cloudflare Pages: Edit"
+# permission). The account id below is public (it appears in the dashboard URL).
 
 on:
   push:
@@ -22,38 +17,15 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
-      - name: Check for Cloudflare token
-        id: guard
-        env:
-          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: |
-          if [ -n "$TOKEN" ]; then
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::CLOUDFLARE_API_TOKEN not set — deploy skipped. Add the secret to enable auto-deploy."
-          fi
-
-      - if: steps.guard.outputs.enabled == 'true'
-        uses: actions/checkout@v4
-
-      - if: steps.guard.outputs.enabled == 'true'
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-
-      - if: steps.guard.outputs.enabled == 'true'
-        run: npm ci
-
-      - if: steps.guard.outputs.enabled == 'true'
-        run: npm run build
-
+      - run: npm ci
+      - run: npm run build
       - name: Deploy to Cloudflare Pages
-        if: steps.guard.outputs.enabled == 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
