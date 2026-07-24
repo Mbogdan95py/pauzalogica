@@ -19,7 +19,8 @@
     "generate": "tsx scripts/generate-daily-content.ts",
     "generate:demo": "tsx scripts/generate-demo-content.ts",
     "validate": "tsx scripts/validate-all-content.ts",
-    "content:status": "tsx scripts/content-status.ts"
+    "content:status": "tsx scripts/content-status.ts",
+    "deploy:cf": "next build && npx --yes wrangler pages deploy out --project-name=careu-ro"
   },
   "dependencies": {
     "next": "14.2.15",

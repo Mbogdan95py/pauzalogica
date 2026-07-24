@@ -1,0 +1,6 @@
+# Configurare Cloudflare Pages (varianta gratuită, comercial permis).
+# Pentru deploy prin Git: Cloudflare citește automat directorul de output de aici.
+# Pentru deploy direct din terminal: `npm run deploy:cf`
+name = "careu-ro"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "out"
