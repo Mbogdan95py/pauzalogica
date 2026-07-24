@@ -34,7 +34,7 @@ export default function Page() {
         Careu.ro nu răspunde pentru eventuale pierderi rezultate din utilizarea site-ului. Ne rezervăm dreptul
         de a modifica sau întrerupe serviciul oricând.
       </p>
-      <p className="text-sm text-muted">Ultima actualizare: 2024.</p>
+      <p className="text-sm text-muted">Ultima actualizare: 2026.</p>
     </ProsePage>
   );
 }

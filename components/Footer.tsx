@@ -4,7 +4,8 @@ import { Logo } from './Icons';
 import { FooterThemeToggle } from './ThemeToggle';
 
 export function Footer() {
-  const year = 2024; // brand year shown in the mockup footer
+  // Current year at build time; the site rebuilds daily so it stays current.
+  const year = new Date().getFullYear();
   return (
     <footer className="mt-16 border-t border-border bg-surface">
       <div className="container-page py-10">

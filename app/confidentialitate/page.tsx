@@ -48,7 +48,7 @@ export default function Page() {
         </a>
         .
       </p>
-      <p className="text-sm text-muted">Ultima actualizare: 2024.</p>
+      <p className="text-sm text-muted">Ultima actualizare: 2026.</p>
     </ProsePage>
   );
 }
