@@ -47,8 +47,8 @@ jobs:
         env:
           CONTENT_AI_MODE: ${{ secrets.OPENAI_API_KEY != '' && 'real' || 'mock' }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_PRIMARY_MODEL: ${{ secrets.OPENAI_PRIMARY_MODEL || 'gpt-5.6-luna' }}
-          OPENAI_FALLBACK_MODEL: ${{ secrets.OPENAI_FALLBACK_MODEL || 'gpt-5.6-terra' }}
+          OPENAI_PRIMARY_MODEL: ${{ secrets.OPENAI_PRIMARY_MODEL || 'gpt-4o-mini' }}
+          OPENAI_FALLBACK_MODEL: ${{ secrets.OPENAI_FALLBACK_MODEL || 'gpt-4o' }}
           CONTENT_GENERATION_SECRET: ${{ secrets.CONTENT_GENERATION_SECRET }}
           CONTENT_TZ: Europe/Bucharest
           # Full anti-repeat windows in production (see docs/content-pipeline.md).

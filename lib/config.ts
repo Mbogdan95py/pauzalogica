@@ -19,8 +19,10 @@ export const aiConfig = {
   /** 'mock' (default) never touches the network; 'real' calls OpenAI. */
   mode: (process.env.CONTENT_AI_MODE === 'real' ? 'real' : 'mock') as 'real' | 'mock',
   apiKey: process.env.OPENAI_API_KEY ?? '',
-  primaryModel: process.env.OPENAI_PRIMARY_MODEL || 'gpt-5.6-luna',
-  fallbackModel: process.env.OPENAI_FALLBACK_MODEL || 'gpt-5.6-terra',
+  // Real OpenAI models (the spec's gpt-5.6-luna/terra were placeholders and
+  // don't exist). Override via OPENAI_PRIMARY_MODEL / OPENAI_FALLBACK_MODEL.
+  primaryModel: process.env.OPENAI_PRIMARY_MODEL || 'gpt-4o-mini',
+  fallbackModel: process.env.OPENAI_FALLBACK_MODEL || 'gpt-4o',
   maxPrimaryAttempts: int(process.env.OPENAI_MAX_PRIMARY_ATTEMPTS, 3),
   maxFallbackAttempts: int(process.env.OPENAI_MAX_FALLBACK_ATTEMPTS, 2),
   requestTimeoutMs: int(process.env.OPENAI_TIMEOUT_MS, 45_000),
@@ -53,6 +55,9 @@ export const siteConfig = {
 
 /** Approximate USD price per 1M tokens, used only for cost estimation logs. */
 export const MODEL_PRICING: Record<string, { inputPerM: number; outputPerM: number }> = {
+  'gpt-4o-mini': { inputPerM: 0.15, outputPerM: 0.6 },
+  'gpt-4o': { inputPerM: 2.5, outputPerM: 10 },
+  // legacy placeholders (kept so cost logs don't crash if still configured)
   'gpt-5.6-luna': { inputPerM: 2.5, outputPerM: 10 },
   'gpt-5.6-terra': { inputPerM: 1.0, outputPerM: 4 },
 };
