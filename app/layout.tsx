@@ -19,6 +19,8 @@ export const metadata: Metadata = {
   authors: [{ name: 'PauzaLogica.ro' }],
   icons: { icon: '/favicon.svg' },
   manifest: '/site.webmanifest',
+  // AdSense ownership verification (meta-tag method).
+  other: { 'google-adsense-account': 'ca-pub-5553617709546966' },
 };
 
 export const viewport = {
@@ -36,6 +38,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="flex min-h-screen flex-col">
         {/* Applies saved theme before paint to avoid a flash of the wrong theme. */}
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOTSTRAP_SCRIPT }} />
+        {/* Google AdSense loader — ownership verification + ad serving. */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5553617709546966"
+          crossOrigin="anonymous"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd()) }}
