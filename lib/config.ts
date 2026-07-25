@@ -38,7 +38,11 @@ export const contentConfig = {
 
 export const adsConfig = {
   enabled: bool(process.env.NEXT_PUBLIC_ADS_ENABLED, false),
-  client: process.env.NEXT_PUBLIC_AD_CLIENT ?? '',
+  // Show sized "RECLAMĂ" placeholders where ads will sit. On by default only in
+  // development (a layout aid); the live site renders nothing until real ads are
+  // enabled, so it looks clean while awaiting AdSense approval / for promotion.
+  showPlaceholders: bool(process.env.NEXT_PUBLIC_AD_PLACEHOLDERS, process.env.NODE_ENV !== 'production'),
+  client: process.env.NEXT_PUBLIC_AD_CLIENT || 'ca-pub-5553617709546966',
   slots: {
     leaderboard: process.env.NEXT_PUBLIC_AD_SLOT_LEADERBOARD ?? '',
     rectangle: process.env.NEXT_PUBLIC_AD_SLOT_RECTANGLE ?? '',

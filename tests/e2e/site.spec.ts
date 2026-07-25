@@ -74,16 +74,13 @@ test.describe('PauzaLogica.ro core flows', () => {
 });
 
 test.describe('resilience', () => {
-  test('ads are only sized placeholders (no ad network) and the site works', async ({ page }) => {
-    const adRequests: string[] = [];
-    page.on('request', (req) => {
-      if (/googlesyndication|adservice|doubleclick/.test(req.url())) adRequests.push(req.url());
-    });
+  test('the site works even when the ad network is blocked', async ({ page }) => {
+    // Simulate an ad blocker: abort all ad-network requests.
+    await page.route(/googlesyndication|adservice|doubleclick|adsbygoogle/, (route) => route.abort());
     await page.goto('/');
-    await expect(page.getByText('RECLAMĂ').first()).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Provocările de astăzi' })).toBeVisible();
     await page.goto(`/sudoku/${TODAY}/`);
     await expect(page.getByRole('grid', { name: 'Grilă Sudoku' })).toBeVisible();
-    expect(adRequests).toHaveLength(0);
   });
 
   test('no OpenAI or backend API calls happen at runtime', async ({ page }) => {

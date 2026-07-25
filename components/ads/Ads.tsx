@@ -32,6 +32,7 @@ function Placeholder({ w, h, label }: { w: number; h: number; label: string }) {
 }
 
 export function AdLeaderboard({ className = '' }: SlotProps) {
+  if (!adsConfig.enabled && !adsConfig.showPlaceholders) return null;
   return (
     <div className={className} data-ad="leaderboard">
       {adsConfig.enabled ? (
@@ -44,6 +45,7 @@ export function AdLeaderboard({ className = '' }: SlotProps) {
 }
 
 export function AdRectangle({ className = '' }: SlotProps) {
+  if (!adsConfig.enabled && !adsConfig.showPlaceholders) return null;
   return (
     <div className={className} data-ad="rectangle">
       {adsConfig.enabled ? (
@@ -56,6 +58,7 @@ export function AdRectangle({ className = '' }: SlotProps) {
 }
 
 export function AdMobileBanner({ className = '' }: SlotProps) {
+  if (!adsConfig.enabled && !adsConfig.showPlaceholders) return null;
   return (
     <div className={`sm:hidden ${className}`} data-ad="mobile">
       {adsConfig.enabled ? (
@@ -68,6 +71,7 @@ export function AdMobileBanner({ className = '' }: SlotProps) {
 }
 
 export function AdInContent({ className = '' }: SlotProps) {
+  if (!adsConfig.enabled && !adsConfig.showPlaceholders) return null;
   return (
     <div className={className} data-ad="in-content">
       {adsConfig.enabled ? (
