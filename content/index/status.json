@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-24T10:37:21.879Z",
-  "today": "2026-07-24",
-  "totalPackages": 42,
-  "bufferDays": 21,
-  "nextAvailableDate": "2026-07-25",
-  "latestDate": "2026-08-14",
-  "validatedGames": 252,
-  "fallbackDays": 0,
-  "lastRunAt": "2026-07-24T10:37:21.862Z",
+  "generatedAt": "2026-08-01T00:13:56.845Z",
+  "today": "2026-08-01",
+  "totalPackages": 43,
+  "bufferDays": 14,
+  "nextAvailableDate": "2026-08-02",
+  "latestDate": "2026-08-15",
+  "validatedGames": 261,
+  "fallbackDays": 1,
+  "lastRunAt": "2026-08-01T00:13:56.819Z",
   "lastRunOk": true
 }
