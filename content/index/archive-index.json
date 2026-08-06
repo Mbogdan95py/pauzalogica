@@ -1891,5 +1891,59 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Corpul omenesc — provocările zilei",
+    "theme": "corp",
+    "contentHash": "d26199715f3299c9583525fb846a231893a81cfe601dc9dd6d3edf7c32e5c144",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-08-20-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-20-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-20-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-20-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-20-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-20-integrame",
+        "type": "integrame",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-20-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-20-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-20-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
