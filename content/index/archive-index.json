@@ -1999,5 +1999,59 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-08-22",
+    "title": "Pe hartă — provocările zilei",
+    "theme": "geografie",
+    "contentHash": "66b87241958e50493167fa1a729123a40e9afe8a4558bcfa5d1f783821183e77",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-08-22-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-22-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-22-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-22-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-22-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-22-cuvant-misterios",
+        "type": "cuvant-misterios",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-22-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-22-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-22-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
