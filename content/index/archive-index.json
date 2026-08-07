@@ -1945,5 +1945,59 @@
         "difficulty": "mediu"
       }
     ]
+  },
+  {
+    "date": "2026-08-21",
+    "title": "În mijlocul naturii — provocările zilei",
+    "theme": "natura",
+    "contentHash": "e20e4f9d4508d0d4636e6944eac6facb1bd946b541e9960419e6ed4ef285bb20",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-08-21-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-21-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-21-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-21-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-21-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-21-secvente-logice",
+        "type": "secvente-logice",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-21-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-21-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-21-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
   }
 ]
