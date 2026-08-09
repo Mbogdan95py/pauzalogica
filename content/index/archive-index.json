@@ -2102,5 +2102,54 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-08-24",
+    "title": "Emoții și trăiri — provocările zilei",
+    "theme": "emotii",
+    "contentHash": "389a7539271e36fa7adcda0675c80fe28c5535ef2455d5e6f7d223882e8fe03e",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-08-24-sudoku",
+        "type": "sudoku",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-24-rebus",
+        "type": "rebus",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-24-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-24-nonograma",
+        "type": "nonograma",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-24-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-24-anagrame",
+        "type": "anagrame",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-24-kakuro",
+        "type": "kakuro",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-24-labirint",
+        "type": "labirint",
+        "difficulty": "usor"
+      }
+    ]
   }
 ]
