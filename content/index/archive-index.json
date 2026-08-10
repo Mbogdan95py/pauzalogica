@@ -2151,5 +2151,54 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-08-25",
+    "title": "Grădina verde — provocările zilei",
+    "theme": "plante",
+    "contentHash": "ff0974d49d1b2257b152c6d6c1c98360c54cdb1f359689799d2323ee9b30d795",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-08-25-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-25-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-25-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-25-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-25-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-25-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-25-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-25-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
   }
 ]
