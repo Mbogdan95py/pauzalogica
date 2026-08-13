@@ -2308,5 +2308,59 @@
         "difficulty": "mediu"
       }
     ]
+  },
+  {
+    "date": "2026-08-28",
+    "title": "În bucătărie — provocările zilei",
+    "theme": "mancare",
+    "contentHash": "bc03ebbb9c011d76709a0f948c38c60d7e9c65af5fd1723632ee8f8c5eb441dc",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-08-28-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-28-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-28-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-28-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-28-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-28-cuvant-misterios",
+        "type": "cuvant-misterios",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-28-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-28-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-28-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
   }
 ]
