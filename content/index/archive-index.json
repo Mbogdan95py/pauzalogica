@@ -2460,5 +2460,54 @@
         "difficulty": "mediu"
       }
     ]
+  },
+  {
+    "date": "2026-08-31",
+    "title": "La școală — provocările zilei",
+    "theme": "scoala",
+    "contentHash": "7dda8a913521bdaeef75ed54755571618a52cab5e8885859d4bcca6af692a7e3",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-08-31-sudoku",
+        "type": "sudoku",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-31-rebus",
+        "type": "rebus",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-31-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-08-31-nonograma",
+        "type": "nonograma",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-31-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-31-labirint",
+        "type": "labirint",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-08-31-kakuro",
+        "type": "kakuro",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-08-31-anagrame",
+        "type": "anagrame",
+        "difficulty": "greu"
+      }
+    ]
   }
 ]
