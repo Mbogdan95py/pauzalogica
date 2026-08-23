@@ -2818,5 +2818,59 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-09-07",
+    "title": "Prin casă — provocările zilei",
+    "theme": "casa",
+    "contentHash": "542e1f0e71af9b82aa9d73b6a76b41599be952895e41cac1b734f9ddf0474306",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-09-07-sudoku",
+        "type": "sudoku",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-07-rebus",
+        "type": "rebus",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-07-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-07-nonograma",
+        "type": "nonograma",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-07-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-07-integrame",
+        "type": "integrame",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-07-kakuro",
+        "type": "kakuro",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-07-labirint",
+        "type": "labirint",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-07-anagrame",
+        "type": "anagrame",
+        "difficulty": "greu"
+      }
+    ]
   }
 ]
