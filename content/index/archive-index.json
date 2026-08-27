@@ -2980,5 +2980,54 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Pe drum — provocările zilei",
+    "theme": "transport",
+    "contentHash": "fa0b2f50ebeaa6e1db1709daaee842735b8436b4d66fd8cbcf3ef0c294119768",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-09-10-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-10-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-10-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-10-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-10-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-10-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-10-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-10-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
