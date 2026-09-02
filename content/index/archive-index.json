@@ -3289,5 +3289,54 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-09-16",
+    "title": "În familie — provocările zilei",
+    "theme": "familie",
+    "contentHash": "062904ad978fc29886035ff7b3b5d2aa07329194b0e4bc65bd82310105199c33",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-09-16-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-16-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-16-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-16-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-16-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-16-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-16-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-16-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
   }
 ]
