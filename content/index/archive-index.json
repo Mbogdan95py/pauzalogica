@@ -3696,5 +3696,54 @@
         "difficulty": "mediu"
       }
     ]
+  },
+  {
+    "date": "2026-09-24",
+    "title": "Meserii și meșteșuguri — provocările zilei",
+    "theme": "meserii",
+    "contentHash": "d95af909f626998dba1ccb9eee507d8ef2f38ecdf0d8d102436deb4608514f04",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-09-24-sudoku",
+        "type": "sudoku",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-24-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-24-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-24-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-24-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-24-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-24-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-24-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
