@@ -3799,5 +3799,59 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-09-26",
+    "title": "Note și melodii — provocările zilei",
+    "theme": "muzica",
+    "contentHash": "26413fa1341464deacc5630acbd73c3321e8eb7852fcc58e2c100f1355789a44",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-09-26-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-26-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-26-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-26-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-26-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-26-secvente-logice",
+        "type": "secvente-logice",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-26-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-26-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-26-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
