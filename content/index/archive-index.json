@@ -3907,5 +3907,54 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "title": "În bucătărie — provocările zilei",
+    "theme": "mancare",
+    "contentHash": "52e05b2aaa3468ada890cc538a3513e3813d8d0c5f1f72c6ad86f9b92e25905b",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-09-28-sudoku",
+        "type": "sudoku",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-28-rebus",
+        "type": "rebus",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-28-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-09-28-nonograma",
+        "type": "nonograma",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-28-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-28-kakuro",
+        "type": "kakuro",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-09-28-labirint",
+        "type": "labirint",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-09-28-anagrame",
+        "type": "anagrame",
+        "difficulty": "greu"
+      }
+    ]
   }
 ]
