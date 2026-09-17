@@ -4054,5 +4054,59 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "title": "Curcubeul culorilor — provocările zilei",
+    "theme": "culori",
+    "contentHash": "9280146729b830a11a48ae5e68d80702a66ad2b85806b8209b0377f26c9adf39",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-01-sudoku",
+        "type": "sudoku",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-01-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-01-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-01-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-01-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-01-integrame",
+        "type": "integrame",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-01-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-01-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-01-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
