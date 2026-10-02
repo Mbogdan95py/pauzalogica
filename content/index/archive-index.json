@@ -4162,5 +4162,726 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "title": "Prin casă — provocările zilei",
+    "theme": "casa",
+    "contentHash": "5a47589a92f2eac6140056920433ec84c23ab91cdd8680127a469025bb4affbd",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-03-sudoku",
+        "type": "sudoku",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-03-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-03-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-03-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-03-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-03-cuvant-misterios",
+        "type": "cuvant-misterios",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-03-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-03-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-03-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "title": "Emoții și trăiri — provocările zilei",
+    "theme": "emotii",
+    "contentHash": "5d60d884a4e9eb3d00ec06d2ece547b9ed8dd60faedab5a106d4434784771b68",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-04-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-04-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-04-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-04-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-04-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-04-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-04-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-04-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "title": "Pe hartă — provocările zilei",
+    "theme": "geografie",
+    "contentHash": "ba54627073e3f722aa84c75636278ba05ec7c01bd15547fbf31c04919691c208",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-05-sudoku",
+        "type": "sudoku",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-05-rebus",
+        "type": "rebus",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-05-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-05-nonograma",
+        "type": "nonograma",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-05-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-05-anagrame",
+        "type": "anagrame",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-05-kakuro",
+        "type": "kakuro",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-05-labirint",
+        "type": "labirint",
+        "difficulty": "usor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Pe drum — provocările zilei",
+    "theme": "transport",
+    "contentHash": "18eba1a51e147222d15282808e16e9de85e97eacd375502c9b0423a9f71ec189",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-06-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-06-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-06-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-06-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-06-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-06-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-06-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-06-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "title": "La școală — provocările zilei",
+    "theme": "scoala",
+    "contentHash": "79a95987ef71ba1e6c95b2cf07ec88723869b51ffd22f684d0c6075b93a96cfc",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-07-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-07-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-07-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-07-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-07-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-07-integrame",
+        "type": "integrame",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-07-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-07-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-07-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "title": "La școală — provocările zilei",
+    "theme": "scoala",
+    "contentHash": "b7b061512754304a1294adeb0a6ca2660efc611d28ff0f8bfb6f22f7248fa2f3",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-08-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-08-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-08-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-08-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-08-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-08-secvente-logice",
+        "type": "secvente-logice",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-08-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-08-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-08-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "title": "În mijlocul naturii — provocările zilei",
+    "theme": "natura",
+    "contentHash": "e3f042618bae228a1dae5a55673110b56727d770bb2912a88cfbf30a6438b892",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-09-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-09-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-09-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-09-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-09-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-09-cuvant-misterios",
+        "type": "cuvant-misterios",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-09-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-09-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-09-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "title": "Lumea animalelor — provocările zilei",
+    "theme": "animale",
+    "contentHash": "6daba0ddda9a2c32d779c34f3f9288fe854282755cd61c1eb725a38c24e059cf",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-10-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-10-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-10-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-10-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-10-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-10-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-10-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-10-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Pe hartă — provocările zilei",
+    "theme": "geografie",
+    "contentHash": "1be048c24e7df8860d92cad72f8ac770517e57b07ed291b1d19d5dd6d590378d",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-11-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-11-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-11-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-11-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-11-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-11-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-11-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-11-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Corpul omenesc — provocările zilei",
+    "theme": "corp",
+    "contentHash": "98cf65e9727081ee338d5eca83efee479206c828426e155dde8c454f31d26559",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-12-sudoku",
+        "type": "sudoku",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-12-rebus",
+        "type": "rebus",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-12-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-12-nonograma",
+        "type": "nonograma",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-12-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-12-labirint",
+        "type": "labirint",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-12-kakuro",
+        "type": "kakuro",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-12-anagrame",
+        "type": "anagrame",
+        "difficulty": "greu"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "title": "În familie — provocările zilei",
+    "theme": "familie",
+    "contentHash": "bb936eb76bc741cea85272c3beea48c11f669db84f7f6cf578371439cc75621a",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-13-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-13-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-13-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-13-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-13-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-13-integrame",
+        "type": "integrame",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-13-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-13-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-13-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Grădina verde — provocările zilei",
+    "theme": "plante",
+    "contentHash": "d672a96b3b0f128ff8edf62cb7874b2fbbf3511b857d7c33b7dc51941c48324c",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-14-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-14-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-14-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-14-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-14-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-14-secvente-logice",
+        "type": "secvente-logice",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-14-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-14-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-14-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Note și melodii — provocările zilei",
+    "theme": "muzica",
+    "contentHash": "c6cba73e201361e025fe1fc0cc49cd1f6839cd83999b7723f5456e6eaa8201d4",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-15-sudoku",
+        "type": "sudoku",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-15-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-15-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-15-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-15-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-15-cuvant-misterios",
+        "type": "cuvant-misterios",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-15-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-15-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-15-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Pe hartă — provocările zilei",
+    "theme": "geografie",
+    "contentHash": "12412647579b58cfc3ae08eaedacd4c872ce0e25cc21adc155380cfbbf6bcead",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-16-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-16-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-16-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-16-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-16-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-16-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-16-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-16-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
   }
 ]
