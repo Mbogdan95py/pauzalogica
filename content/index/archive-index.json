@@ -4981,5 +4981,59 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Emoții și trăiri — provocările zilei",
+    "theme": "emotii",
+    "contentHash": "704c8ab5229a8bb22f712fd0ddc39f88624de72258a7cc0cb2a53ee53a83af13",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-19-sudoku",
+        "type": "sudoku",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-19-rebus",
+        "type": "rebus",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-19-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-19-nonograma",
+        "type": "nonograma",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-19-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-19-integrame",
+        "type": "integrame",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-19-kakuro",
+        "type": "kakuro",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-19-labirint",
+        "type": "labirint",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-19-anagrame",
+        "type": "anagrame",
+        "difficulty": "greu"
+      }
+    ]
   }
 ]
