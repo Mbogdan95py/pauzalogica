@@ -5143,5 +5143,54 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Lumea animalelor — provocările zilei",
+    "theme": "animale",
+    "contentHash": "d1b756ab8d51929f52ff9548c61e7ad7cb496369da0e20ddd735726831c0115f",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-22-sudoku",
+        "type": "sudoku",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-22-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-22-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-22-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-22-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-22-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-22-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-22-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
