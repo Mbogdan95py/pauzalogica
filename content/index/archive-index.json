@@ -5192,5 +5192,54 @@
         "difficulty": "mediu"
       }
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "title": "În mijlocul naturii — provocările zilei",
+    "theme": "natura",
+    "contentHash": "484abcd50ca4e5b2b88e956008800c89be11842c80dd7de0d70cc2eff34a03cf",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-23-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-23-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-23-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-23-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-23-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-23-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-23-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-23-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
