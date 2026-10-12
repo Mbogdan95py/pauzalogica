@@ -5290,5 +5290,113 @@
         "difficulty": "mediu"
       }
     ]
+  },
+  {
+    "date": "2026-10-25",
+    "title": "În familie — provocările zilei",
+    "theme": "familie",
+    "contentHash": "893da2bcc9e048b38fc34073dd3e0f37671016f72d6914f8f67cafd87f9faf17",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-25-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-25-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-25-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-25-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-25-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-25-integrame",
+        "type": "integrame",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-25-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-25-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-25-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Grădina verde — provocările zilei",
+    "theme": "plante",
+    "contentHash": "59cfd2683661a509c22d9134d6b0901eae255b4c6232ccb7e2334ed07680cce0",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-10-26-sudoku",
+        "type": "sudoku",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-26-rebus",
+        "type": "rebus",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-26-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-10-26-nonograma",
+        "type": "nonograma",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-26-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-26-secvente-logice",
+        "type": "secvente-logice",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-26-kakuro",
+        "type": "kakuro",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-10-26-labirint",
+        "type": "labirint",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-10-26-anagrame",
+        "type": "anagrame",
+        "difficulty": "greu"
+      }
+    ]
   }
 ]
