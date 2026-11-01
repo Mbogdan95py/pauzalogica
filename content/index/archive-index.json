@@ -6379,5 +6379,54 @@
         "difficulty": "mediu"
       }
     ]
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Lumea sportului — provocările zilei",
+    "theme": "sport",
+    "contentHash": "04ade7a7e421395153b5a1775c9f700fcbb6c7782eba5c4a707c61b6d5a4d881",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-11-15-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-15-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-15-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-15-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-15-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-15-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-15-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-15-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
   }
 ]
