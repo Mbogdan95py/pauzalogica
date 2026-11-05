@@ -6580,5 +6580,59 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Garderoba — provocările zilei",
+    "theme": "imbracaminte",
+    "contentHash": "13f50011d9f00d0310adce52423433b105e993afcf1cd0bbc1680a7275583fe9",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-11-19-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-19-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-19-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-19-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-19-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-19-secvente-logice",
+        "type": "secvente-logice",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-19-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-19-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-19-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
