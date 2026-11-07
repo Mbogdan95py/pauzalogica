@@ -6688,5 +6688,54 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Anotimpuri și timp — provocările zilei",
+    "theme": "timp",
+    "contentHash": "75f57adab6e37dd9ddca67b2a8835acf85f3a126bbb3721c8ee6fbac17cb379e",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-11-21-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-21-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-21-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-21-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-21-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-21-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-21-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-21-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
