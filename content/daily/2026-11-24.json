@@ -1,0 +1,3349 @@
+{
+  "date": "2026-11-24",
+  "locale": "ro-RO",
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-10T04:37:00.118Z",
+  "generationModel": "local",
+  "seed": "careu:2026-11-24:v6",
+  "theme": "sport",
+  "title": "Lumea sportului — provocările zilei",
+  "description": "Mingi, echipe și clipe de întrecere. Jocuri noi, generate automat pentru astăzi.",
+  "games": [
+    {
+      "id": "2026-11-24-sudoku",
+      "type": "sudoku",
+      "title": "Sudoku zilnic",
+      "description": "Completează grila 9×9 astfel încât fiecare rând, coloană și bloc să conțină cifrele 1–9.",
+      "difficulty": "mediu",
+      "estimatedMinutes": 9,
+      "seed": "careu:2026-11-24:v6:sudoku",
+      "instructions": "Atinge o celulă și introdu o cifră de la 1 la 9. Fiecare cifră poate apărea o singură dată pe rând, pe coloană și în fiecare bloc de 3×3.",
+      "hints": [
+        "Caută rândurile, coloanele sau blocurile cu cele mai multe cifre completate.",
+        "Notează candidații posibili în celulele goale.",
+        "Dacă o cifră poate sta într-un singur loc dintr-un bloc, acela este locul ei."
+      ],
+      "puzzle": {
+        "size": 9,
+        "boxSize": 3,
+        "givens": [
+          [
+            0,
+            5,
+            8,
+            0,
+            2,
+            0,
+            0,
+            7,
+            9
+          ],
+          [
+            2,
+            9,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            7,
+            2,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            7
+          ],
+          [
+            7,
+            2,
+            0,
+            0,
+            9,
+            0,
+            0,
+            3,
+            6
+          ],
+          [
+            3,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            3,
+            4,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            6,
+            5
+          ],
+          [
+            9,
+            6,
+            0,
+            0,
+            5,
+            0,
+            4,
+            1,
+            0
+          ]
+        ]
+      },
+      "solution": {
+        "grid": [
+          [
+            1,
+            5,
+            8,
+            3,
+            2,
+            4,
+            6,
+            7,
+            9
+          ],
+          [
+            2,
+            9,
+            7,
+            5,
+            6,
+            1,
+            3,
+            4,
+            8
+          ],
+          [
+            4,
+            3,
+            6,
+            9,
+            8,
+            7,
+            2,
+            5,
+            1
+          ],
+          [
+            6,
+            1,
+            9,
+            8,
+            4,
+            3,
+            5,
+            2,
+            7
+          ],
+          [
+            7,
+            2,
+            4,
+            1,
+            9,
+            5,
+            8,
+            3,
+            6
+          ],
+          [
+            3,
+            8,
+            5,
+            6,
+            7,
+            2,
+            1,
+            9,
+            4
+          ],
+          [
+            5,
+            7,
+            3,
+            4,
+            1,
+            6,
+            9,
+            8,
+            2
+          ],
+          [
+            8,
+            4,
+            1,
+            2,
+            3,
+            9,
+            7,
+            6,
+            5
+          ],
+          [
+            9,
+            6,
+            2,
+            7,
+            5,
+            8,
+            4,
+            1,
+            3
+          ]
+        ]
+      },
+      "validationMetadata": {
+        "givenCount": 33,
+        "emptyCount": 48,
+        "uniqueSolution": true,
+        "techniques": [
+          "Naked single",
+          "Hidden single"
+        ],
+        "solverDifficultyScore": 60
+      }
+    },
+    {
+      "id": "2026-11-24-rebus",
+      "type": "rebus",
+      "title": "Rebusul zilei",
+      "description": "Careu de cuvinte încrucișate pe tema „Lumea sportului”.",
+      "difficulty": "greu",
+      "estimatedMinutes": 13,
+      "seed": "careu:2026-11-24:v6:rebus",
+      "instructions": "Completează cuvintele pe orizontală și verticală folosind definițiile numerotate. Scrie fără diacritice — ele se potrivesc automat.",
+      "hints": [
+        "Începe cu definițiile ale căror răspunsuri le știi sigur.",
+        "Literele din intersecții îți confirmă răspunsurile.",
+        "Lungimea răspunsului este afișată lângă definiție."
+      ],
+      "puzzle": {
+        "width": 12,
+        "height": 12,
+        "blocks": [
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true
+          ]
+        ],
+        "numbers": [
+          [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11,
+            0,
+            0,
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "entries": [
+          {
+            "number": 1,
+            "direction": "down",
+            "row": 0,
+            "col": 2,
+            "length": 5,
+            "clue": "Rumegător sprinten care ronțăie de toate.",
+            "answer": "CAPRĂ"
+          },
+          {
+            "number": 2,
+            "direction": "down",
+            "row": 0,
+            "col": 4,
+            "length": 4,
+            "clue": "Ridicătură de pământ mai mică decât muntele.",
+            "answer": "DEAL"
+          },
+          {
+            "number": 3,
+            "direction": "across",
+            "row": 0,
+            "col": 7,
+            "length": 4,
+            "clue": "Animal de curte crescut pentru carne.",
+            "answer": "PORC"
+          },
+          {
+            "number": 3,
+            "direction": "down",
+            "row": 0,
+            "col": 7,
+            "length": 4,
+            "clue": "Instrument muzical cu clape.",
+            "answer": "PIAN"
+          },
+          {
+            "number": 4,
+            "direction": "across",
+            "row": 1,
+            "col": 1,
+            "length": 4,
+            "clue": "Animal de la care se tunde lâna.",
+            "answer": "OAIE"
+          },
+          {
+            "number": 5,
+            "direction": "down",
+            "row": 1,
+            "col": 11,
+            "length": 5,
+            "clue": "Animal roșcat și viclean din basme.",
+            "answer": "VULPE"
+          },
+          {
+            "number": 6,
+            "direction": "across",
+            "row": 2,
+            "col": 4,
+            "length": 8,
+            "clue": "Culoarea cerului senin.",
+            "answer": "ALBASTRU"
+          },
+          {
+            "number": 7,
+            "direction": "down",
+            "row": 4,
+            "col": 0,
+            "length": 6,
+            "clue": "Cu ea auzim sunetele.",
+            "answer": "URECHE"
+          },
+          {
+            "number": 8,
+            "direction": "across",
+            "row": 5,
+            "col": 7,
+            "length": 5,
+            "clue": "Cel mai bun prieten al omului; latră.",
+            "answer": "CÂINE"
+          },
+          {
+            "number": 8,
+            "direction": "down",
+            "row": 5,
+            "col": 7,
+            "length": 5,
+            "clue": "Deschide o broască sau o ușă.",
+            "answer": "CHEIE"
+          },
+          {
+            "number": 9,
+            "direction": "across",
+            "row": 6,
+            "col": 0,
+            "length": 6,
+            "clue": "Grup care joacă împreună.",
+            "answer": "ECHIPĂ"
+          },
+          {
+            "number": 10,
+            "direction": "down",
+            "row": 6,
+            "col": 4,
+            "length": 6,
+            "clue": "Animal domestic care toarce și prinde șoareci.",
+            "answer": "PISICĂ"
+          },
+          {
+            "number": 11,
+            "direction": "across",
+            "row": 7,
+            "col": 6,
+            "length": 5,
+            "clue": "Culoarea ierbii proaspete.",
+            "answer": "VERDE"
+          },
+          {
+            "number": 12,
+            "direction": "down",
+            "row": 7,
+            "col": 9,
+            "length": 5,
+            "clue": "Se termină cu unghie.",
+            "answer": "DEGET"
+          },
+          {
+            "number": 13,
+            "direction": "across",
+            "row": 9,
+            "col": 3,
+            "length": 5,
+            "clue": "Cu ea se joacă fotbal.",
+            "answer": "MINGE"
+          },
+          {
+            "number": 14,
+            "direction": "across",
+            "row": 11,
+            "col": 1,
+            "length": 6,
+            "clue": "Instrument cu coarde și arcuș.",
+            "answer": "VIOARĂ"
+          }
+        ]
+      },
+      "solution": {
+        "grid": [
+          [
+            "",
+            "",
+            "C",
+            "",
+            "D",
+            "",
+            "",
+            "P",
+            "O",
+            "R",
+            "C",
+            ""
+          ],
+          [
+            "",
+            "O",
+            "A",
+            "I",
+            "E",
+            "",
+            "",
+            "I",
+            "",
+            "",
+            "",
+            "V"
+          ],
+          [
+            "",
+            "",
+            "P",
+            "",
+            "A",
+            "L",
+            "B",
+            "A",
+            "S",
+            "T",
+            "R",
+            "U"
+          ],
+          [
+            "",
+            "",
+            "R",
+            "",
+            "L",
+            "",
+            "",
+            "N",
+            "",
+            "",
+            "",
+            "L"
+          ],
+          [
+            "U",
+            "",
+            "A",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "P"
+          ],
+          [
+            "R",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "C",
+            "A",
+            "I",
+            "N",
+            "E"
+          ],
+          [
+            "E",
+            "C",
+            "H",
+            "I",
+            "P",
+            "A",
+            "",
+            "H",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "C",
+            "",
+            "",
+            "",
+            "I",
+            "",
+            "V",
+            "E",
+            "R",
+            "D",
+            "E",
+            ""
+          ],
+          [
+            "H",
+            "",
+            "",
+            "",
+            "S",
+            "",
+            "",
+            "I",
+            "",
+            "E",
+            "",
+            ""
+          ],
+          [
+            "E",
+            "",
+            "",
+            "M",
+            "I",
+            "N",
+            "G",
+            "E",
+            "",
+            "G",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "C",
+            "",
+            "",
+            "",
+            "",
+            "E",
+            "",
+            ""
+          ],
+          [
+            "",
+            "V",
+            "I",
+            "O",
+            "A",
+            "R",
+            "A",
+            "",
+            "",
+            "T",
+            "",
+            ""
+          ]
+        ]
+      },
+      "validationMetadata": {
+        "wordCount": 16,
+        "intersectionRatio": 0.221,
+        "theme": "sport"
+      }
+    },
+    {
+      "id": "2026-11-24-cuvinte-ascunse",
+      "type": "cuvinte-ascunse",
+      "title": "Cuvinte ascunse",
+      "description": "Găsește cuvintele pe tema „Lumea sportului” ascunse în grilă.",
+      "difficulty": "usor",
+      "estimatedMinutes": 4,
+      "seed": "careu:2026-11-24:v6:cuvinte-ascunse",
+      "instructions": "Cuvintele sunt ascunse pe orizontală, verticală sau diagonală. Trage cu mouse-ul sau cu degetul peste litere pentru a selecta un cuvânt.",
+      "hints": [
+        "Caută mai întâi literele rare: Ș, Ț, X, Z.",
+        "Cuvintele lungi sunt mai ușor de reperat.",
+        "Bifează cuvintele găsite din listă."
+      ],
+      "puzzle": {
+        "width": 10,
+        "height": 10,
+        "grid": [
+          [
+            "Z",
+            "M",
+            "I",
+            "N",
+            "G",
+            "E",
+            "Â",
+            "R",
+            "K",
+            "Ț"
+          ],
+          [
+            "B",
+            "R",
+            "Z",
+            "S",
+            "T",
+            "A",
+            "D",
+            "I",
+            "O",
+            "N"
+          ],
+          [
+            "Â",
+            "T",
+            "E",
+            "C",
+            "H",
+            "I",
+            "P",
+            "A",
+            "Ă",
+            "G"
+          ],
+          [
+            "M",
+            "S",
+            "A",
+            "R",
+            "I",
+            "T",
+            "U",
+            "R",
+            "A",
+            "H"
+          ],
+          [
+            "B",
+            "U",
+            "A",
+            "L",
+            "E",
+            "R",
+            "G",
+            "A",
+            "R",
+            "E"
+          ],
+          [
+            "F",
+            "O",
+            "T",
+            "B",
+            "A",
+            "L",
+            "L",
+            "L",
+            "Ă",
+            "I"
+          ],
+          [
+            "Ș",
+            "Â",
+            "A",
+            "R",
+            "B",
+            "I",
+            "T",
+            "R",
+            "U",
+            "X"
+          ],
+          [
+            "T",
+            "P",
+            "A",
+            "T",
+            "I",
+            "N",
+            "E",
+            "I",
+            "O",
+            "C"
+          ],
+          [
+            "C",
+            "C",
+            "D",
+            "C",
+            "H",
+            "I",
+            "T",
+            "A",
+            "R",
+            "A"
+          ],
+          [
+            "M",
+            "E",
+            "D",
+            "A",
+            "L",
+            "I",
+            "E",
+            "Ș",
+            "S",
+            "K"
+          ]
+        ],
+        "words": [
+          {
+            "display": "ALERGARE",
+            "normalized": "ALERGARE"
+          },
+          {
+            "display": "SĂRITURĂ",
+            "normalized": "SARITURA"
+          },
+          {
+            "display": "MEDALIE",
+            "normalized": "MEDALIE"
+          },
+          {
+            "display": "STADION",
+            "normalized": "STADION"
+          },
+          {
+            "display": "ARBITRU",
+            "normalized": "ARBITRU"
+          },
+          {
+            "display": "CHITARĂ",
+            "normalized": "CHITARA"
+          },
+          {
+            "display": "FOTBAL",
+            "normalized": "FOTBAL"
+          },
+          {
+            "display": "PATINE",
+            "normalized": "PATINE"
+          },
+          {
+            "display": "ECHIPĂ",
+            "normalized": "ECHIPA"
+          },
+          {
+            "display": "MINGE",
+            "normalized": "MINGE"
+          }
+        ]
+      },
+      "solution": {
+        "placements": [
+          {
+            "normalized": "ALERGARE",
+            "row": 4,
+            "col": 2,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 4,
+                "col": 2
+              },
+              {
+                "row": 4,
+                "col": 3
+              },
+              {
+                "row": 4,
+                "col": 4
+              },
+              {
+                "row": 4,
+                "col": 5
+              },
+              {
+                "row": 4,
+                "col": 6
+              },
+              {
+                "row": 4,
+                "col": 7
+              },
+              {
+                "row": 4,
+                "col": 8
+              },
+              {
+                "row": 4,
+                "col": 9
+              }
+            ]
+          },
+          {
+            "normalized": "SARITURA",
+            "row": 3,
+            "col": 1,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 3,
+                "col": 1
+              },
+              {
+                "row": 3,
+                "col": 2
+              },
+              {
+                "row": 3,
+                "col": 3
+              },
+              {
+                "row": 3,
+                "col": 4
+              },
+              {
+                "row": 3,
+                "col": 5
+              },
+              {
+                "row": 3,
+                "col": 6
+              },
+              {
+                "row": 3,
+                "col": 7
+              },
+              {
+                "row": 3,
+                "col": 8
+              }
+            ]
+          },
+          {
+            "normalized": "MEDALIE",
+            "row": 9,
+            "col": 0,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 9,
+                "col": 0
+              },
+              {
+                "row": 9,
+                "col": 1
+              },
+              {
+                "row": 9,
+                "col": 2
+              },
+              {
+                "row": 9,
+                "col": 3
+              },
+              {
+                "row": 9,
+                "col": 4
+              },
+              {
+                "row": 9,
+                "col": 5
+              },
+              {
+                "row": 9,
+                "col": 6
+              }
+            ]
+          },
+          {
+            "normalized": "STADION",
+            "row": 1,
+            "col": 3,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 1,
+                "col": 3
+              },
+              {
+                "row": 1,
+                "col": 4
+              },
+              {
+                "row": 1,
+                "col": 5
+              },
+              {
+                "row": 1,
+                "col": 6
+              },
+              {
+                "row": 1,
+                "col": 7
+              },
+              {
+                "row": 1,
+                "col": 8
+              },
+              {
+                "row": 1,
+                "col": 9
+              }
+            ]
+          },
+          {
+            "normalized": "ARBITRU",
+            "row": 6,
+            "col": 2,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 6,
+                "col": 2
+              },
+              {
+                "row": 6,
+                "col": 3
+              },
+              {
+                "row": 6,
+                "col": 4
+              },
+              {
+                "row": 6,
+                "col": 5
+              },
+              {
+                "row": 6,
+                "col": 6
+              },
+              {
+                "row": 6,
+                "col": 7
+              },
+              {
+                "row": 6,
+                "col": 8
+              }
+            ]
+          },
+          {
+            "normalized": "CHITARA",
+            "row": 8,
+            "col": 3,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 8,
+                "col": 3
+              },
+              {
+                "row": 8,
+                "col": 4
+              },
+              {
+                "row": 8,
+                "col": 5
+              },
+              {
+                "row": 8,
+                "col": 6
+              },
+              {
+                "row": 8,
+                "col": 7
+              },
+              {
+                "row": 8,
+                "col": 8
+              },
+              {
+                "row": 8,
+                "col": 9
+              }
+            ]
+          },
+          {
+            "normalized": "FOTBAL",
+            "row": 5,
+            "col": 0,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 5,
+                "col": 0
+              },
+              {
+                "row": 5,
+                "col": 1
+              },
+              {
+                "row": 5,
+                "col": 2
+              },
+              {
+                "row": 5,
+                "col": 3
+              },
+              {
+                "row": 5,
+                "col": 4
+              },
+              {
+                "row": 5,
+                "col": 5
+              }
+            ]
+          },
+          {
+            "normalized": "PATINE",
+            "row": 7,
+            "col": 1,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 7,
+                "col": 1
+              },
+              {
+                "row": 7,
+                "col": 2
+              },
+              {
+                "row": 7,
+                "col": 3
+              },
+              {
+                "row": 7,
+                "col": 4
+              },
+              {
+                "row": 7,
+                "col": 5
+              },
+              {
+                "row": 7,
+                "col": 6
+              }
+            ]
+          },
+          {
+            "normalized": "ECHIPA",
+            "row": 2,
+            "col": 2,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 2,
+                "col": 2
+              },
+              {
+                "row": 2,
+                "col": 3
+              },
+              {
+                "row": 2,
+                "col": 4
+              },
+              {
+                "row": 2,
+                "col": 5
+              },
+              {
+                "row": 2,
+                "col": 6
+              },
+              {
+                "row": 2,
+                "col": 7
+              }
+            ]
+          },
+          {
+            "normalized": "MINGE",
+            "row": 0,
+            "col": 1,
+            "dir": [
+              0,
+              1
+            ],
+            "cells": [
+              {
+                "row": 0,
+                "col": 1
+              },
+              {
+                "row": 0,
+                "col": 2
+              },
+              {
+                "row": 0,
+                "col": 3
+              },
+              {
+                "row": 0,
+                "col": 4
+              },
+              {
+                "row": 0,
+                "col": 5
+              }
+            ]
+          }
+        ]
+      },
+      "validationMetadata": {
+        "wordCount": 10,
+        "allowsReversed": false,
+        "allowsDiagonal": false
+      }
+    },
+    {
+      "id": "2026-11-24-nonograma",
+      "type": "nonograma",
+      "title": "Nonograma zilei",
+      "description": "Colorează celulele corecte după indicii numerice și descoperă imaginea ascunsă.",
+      "difficulty": "mediu",
+      "estimatedMinutes": 8,
+      "seed": "careu:2026-11-24:v6:nonograma",
+      "instructions": "Numerele arată lungimile grupurilor de celule pline de pe fiecare rând și coloană, în ordine. Între grupuri există cel puțin o celulă goală. Folosește click stânga pentru plin și click dreapta (sau modul X) pentru gol.",
+      "hints": [
+        "Începe cu rândurile și coloanele cu indicii mari.",
+        "Marchează cu X celulele care sigur rămân goale.",
+        "Compară indicii de pe rând cu cei de pe coloană pentru fiecare celulă nesigură."
+      ],
+      "puzzle": {
+        "width": 10,
+        "height": 10,
+        "rowClues": [
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            5
+          ]
+        ],
+        "colClues": [
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "solution": {
+        "grid": [
+          [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "validationMetadata": {
+        "filledRatio": 0.43,
+        "uniqueSolution": true,
+        "lineSolvable": true
+      }
+    },
+    {
+      "id": "2026-11-24-provocare-rapida",
+      "type": "provocare-rapida",
+      "title": "Provocarea rapidă",
+      "description": "Ghicește cuvântul zilei din 5 litere în cel mult 6 încercări.",
+      "difficulty": "mediu",
+      "estimatedMinutes": 4,
+      "seed": "careu:2026-11-24:v6:provocare-rapida",
+      "instructions": "Scrie un cuvânt românesc valid și apasă Enter. Verde = literă corectă pe poziția corectă; galben = litera există pe altă poziție; gri = litera nu apare.",
+      "hints": [
+        "Începe cu un cuvânt bogat în vocale.",
+        "Folosește literele galbene pe alte poziții.",
+        "Elimină literele gri din următoarele încercări."
+      ],
+      "puzzle": {
+        "length": 5,
+        "maxAttempts": 6
+      },
+      "solution": {
+        "answer": "VARZĂ"
+      },
+      "validationMetadata": {
+        "frequencyRank": 3
+      }
+    },
+    {
+      "id": "2026-11-24-integrame",
+      "type": "integrame",
+      "title": "Integrame",
+      "description": "Careu de cuvinte încrucișate pe tema „Lumea sportului”.",
+      "difficulty": "usor",
+      "estimatedMinutes": 8,
+      "seed": "careu:2026-11-24:v6:integrame",
+      "instructions": "Completează cuvintele pe orizontală și verticală folosind definițiile numerotate. Scrie fără diacritice — ele se potrivesc automat.",
+      "hints": [
+        "Începe cu definițiile ale căror răspunsuri le știi sigur.",
+        "Literele din intersecții îți confirmă răspunsurile.",
+        "Lungimea răspunsului este afișată lângă definiție."
+      ],
+      "puzzle": {
+        "width": 9,
+        "height": 8,
+        "blocks": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        ],
+        "numbers": [
+          [
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "entries": [
+          {
+            "number": 1,
+            "direction": "across",
+            "row": 0,
+            "col": 0,
+            "length": 6,
+            "clue": "Insectă harnică ce adună miere.",
+            "answer": "ALBINĂ"
+          },
+          {
+            "number": 2,
+            "direction": "down",
+            "row": 0,
+            "col": 2,
+            "length": 7,
+            "clue": "Sare și orăcăie lângă baltă.",
+            "answer": "BROASCĂ"
+          },
+          {
+            "number": 3,
+            "direction": "down",
+            "row": 2,
+            "col": 5,
+            "length": 5,
+            "clue": "Viețuitoare care înoată și respiră prin branhii.",
+            "answer": "PEȘTE"
+          },
+          {
+            "number": 4,
+            "direction": "across",
+            "row": 3,
+            "col": 1,
+            "length": 5,
+            "clue": "Reptilă lungă, fără picioare.",
+            "answer": "ȘARPE"
+          },
+          {
+            "number": 5,
+            "direction": "down",
+            "row": 4,
+            "col": 8,
+            "length": 4,
+            "clue": "Rumegător de fermă care dă lapte.",
+            "answer": "VACĂ"
+          },
+          {
+            "number": 6,
+            "direction": "across",
+            "row": 5,
+            "col": 2,
+            "length": 7,
+            "clue": "Instrument cu șase coarde.",
+            "answer": "CHITARĂ"
+          }
+        ]
+      },
+      "solution": {
+        "grid": [
+          [
+            "A",
+            "L",
+            "B",
+            "I",
+            "N",
+            "A",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "R",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "O",
+            "",
+            "",
+            "P",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "S",
+            "A",
+            "R",
+            "P",
+            "E",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "S",
+            "",
+            "",
+            "S",
+            "",
+            "",
+            "V"
+          ],
+          [
+            "",
+            "",
+            "C",
+            "H",
+            "I",
+            "T",
+            "A",
+            "R",
+            "A"
+          ],
+          [
+            "",
+            "",
+            "A",
+            "",
+            "",
+            "E",
+            "",
+            "",
+            "C"
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "A"
+          ]
+        ]
+      },
+      "validationMetadata": {
+        "wordCount": 6,
+        "intersectionRatio": 0.214,
+        "theme": "sport"
+      }
+    },
+    {
+      "id": "2026-11-24-kakuro",
+      "type": "kakuro",
+      "title": "Kakuro",
+      "description": "Completează grila cu cifre 1–9 astfel încât sumele de pe rânduri și coloane să corespundă.",
+      "difficulty": "greu",
+      "estimatedMinutes": 13,
+      "seed": "careu:2026-11-24:v6:kakuro",
+      "instructions": "Fiecare serie albă trebuie să însumeze exact numărul indicat în celula gri din stânga (pentru orizontal) sau de deasupra (pentru vertical). Într-o serie, cifrele nu se repetă.",
+      "hints": [
+        "Seriile scurte cu sume mici sau mari au puține combinații posibile.",
+        "O sumă de 3 pe două celule înseamnă 1 și 2.",
+        "Notează combinațiile posibile în colțul celulei."
+      ],
+      "puzzle": {
+        "width": 8,
+        "height": 8,
+        "cells": [
+          [
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            }
+          ],
+          [
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            }
+          ],
+          [
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": 13
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": 5
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            }
+          ],
+          [
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": 7
+            },
+            {
+              "kind": "block",
+              "right": 12,
+              "down": 10
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            }
+          ],
+          [
+            {
+              "kind": "block",
+              "right": 11,
+              "down": null
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            }
+          ],
+          [
+            {
+              "kind": "block",
+              "right": 6,
+              "down": null
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": 4
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            }
+          ],
+          [
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": 3,
+              "down": null
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            }
+          ],
+          [
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": 7,
+              "down": null
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "entry"
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            },
+            {
+              "kind": "block",
+              "right": null,
+              "down": null
+            }
+          ]
+        ]
+      },
+      "solution": {
+        "grid": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            8,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            3,
+            5,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            3,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "validationMetadata": {
+        "entryCount": 12,
+        "uniqueSolution": true
+      }
+    },
+    {
+      "id": "2026-11-24-labirint",
+      "type": "labirint",
+      "title": "Labirintul zilei",
+      "description": "Găsește drumul de la intrare la ieșire.",
+      "difficulty": "mediu",
+      "estimatedMinutes": 4,
+      "seed": "careu:2026-11-24:v6:labirint",
+      "instructions": "Pornește din colțul din stânga-sus și ajungi în colțul din dreapta-jos. Folosește săgețile, mouse-ul sau degetul pentru a avansa prin coridoare.",
+      "hints": [
+        "Urmează mereu peretele din dreapta — te va scoate la ieșire.",
+        "Marchează mental intersecțiile deja vizitate.",
+        "Dacă te blochezi, întoarce-te la ultima intersecție."
+      ],
+      "puzzle": {
+        "width": 13,
+        "height": 13,
+        "walls": [
+          [
+            11,
+            9,
+            5,
+            5,
+            5,
+            3,
+            11,
+            9,
+            5,
+            1,
+            5,
+            3,
+            11
+          ],
+          [
+            10,
+            10,
+            9,
+            5,
+            7,
+            10,
+            8,
+            6,
+            11,
+            12,
+            3,
+            12,
+            2
+          ],
+          [
+            12,
+            6,
+            8,
+            5,
+            5,
+            6,
+            10,
+            13,
+            0,
+            7,
+            10,
+            13,
+            2
+          ],
+          [
+            11,
+            9,
+            6,
+            9,
+            5,
+            3,
+            12,
+            3,
+            8,
+            3,
+            12,
+            3,
+            10
+          ],
+          [
+            10,
+            12,
+            5,
+            6,
+            9,
+            6,
+            11,
+            10,
+            14,
+            10,
+            9,
+            6,
+            10
+          ],
+          [
+            8,
+            5,
+            7,
+            9,
+            6,
+            13,
+            0,
+            4,
+            5,
+            6,
+            10,
+            13,
+            2
+          ],
+          [
+            8,
+            5,
+            5,
+            6,
+            9,
+            3,
+            12,
+            3,
+            9,
+            3,
+            12,
+            3,
+            10
+          ],
+          [
+            10,
+            9,
+            5,
+            5,
+            6,
+            10,
+            9,
+            6,
+            10,
+            10,
+            9,
+            6,
+            10
+          ],
+          [
+            12,
+            6,
+            9,
+            7,
+            9,
+            6,
+            12,
+            7,
+            10,
+            12,
+            6,
+            9,
+            6
+          ],
+          [
+            11,
+            9,
+            4,
+            5,
+            6,
+            9,
+            1,
+            3,
+            8,
+            3,
+            13,
+            4,
+            3
+          ],
+          [
+            10,
+            12,
+            3,
+            9,
+            3,
+            10,
+            10,
+            10,
+            10,
+            12,
+            3,
+            11,
+            10
+          ],
+          [
+            8,
+            5,
+            6,
+            10,
+            10,
+            14,
+            10,
+            10,
+            14,
+            9,
+            6,
+            10,
+            10
+          ],
+          [
+            12,
+            5,
+            5,
+            6,
+            12,
+            5,
+            6,
+            12,
+            5,
+            6,
+            13,
+            4,
+            6
+          ]
+        ],
+        "start": {
+          "row": 0,
+          "col": 0
+        },
+        "end": {
+          "row": 12,
+          "col": 12
+        },
+        "algorithm": "recursive-backtracker"
+      },
+      "solution": {
+        "path": [
+          {
+            "row": 0,
+            "col": 0
+          },
+          {
+            "row": 1,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 0
+          },
+          {
+            "row": 2,
+            "col": 1
+          },
+          {
+            "row": 1,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 1
+          },
+          {
+            "row": 0,
+            "col": 2
+          },
+          {
+            "row": 0,
+            "col": 3
+          },
+          {
+            "row": 0,
+            "col": 4
+          },
+          {
+            "row": 0,
+            "col": 5
+          },
+          {
+            "row": 1,
+            "col": 5
+          },
+          {
+            "row": 2,
+            "col": 5
+          },
+          {
+            "row": 2,
+            "col": 4
+          },
+          {
+            "row": 2,
+            "col": 3
+          },
+          {
+            "row": 2,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 2
+          },
+          {
+            "row": 3,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 1
+          },
+          {
+            "row": 4,
+            "col": 2
+          },
+          {
+            "row": 4,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 3
+          },
+          {
+            "row": 3,
+            "col": 4
+          },
+          {
+            "row": 3,
+            "col": 5
+          },
+          {
+            "row": 4,
+            "col": 5
+          },
+          {
+            "row": 4,
+            "col": 4
+          },
+          {
+            "row": 5,
+            "col": 4
+          },
+          {
+            "row": 5,
+            "col": 3
+          },
+          {
+            "row": 6,
+            "col": 3
+          },
+          {
+            "row": 6,
+            "col": 2
+          },
+          {
+            "row": 6,
+            "col": 1
+          },
+          {
+            "row": 6,
+            "col": 0
+          },
+          {
+            "row": 7,
+            "col": 0
+          },
+          {
+            "row": 8,
+            "col": 0
+          },
+          {
+            "row": 8,
+            "col": 1
+          },
+          {
+            "row": 7,
+            "col": 1
+          },
+          {
+            "row": 7,
+            "col": 2
+          },
+          {
+            "row": 7,
+            "col": 3
+          },
+          {
+            "row": 7,
+            "col": 4
+          },
+          {
+            "row": 6,
+            "col": 4
+          },
+          {
+            "row": 6,
+            "col": 5
+          },
+          {
+            "row": 7,
+            "col": 5
+          },
+          {
+            "row": 8,
+            "col": 5
+          },
+          {
+            "row": 8,
+            "col": 4
+          },
+          {
+            "row": 9,
+            "col": 4
+          },
+          {
+            "row": 9,
+            "col": 3
+          },
+          {
+            "row": 9,
+            "col": 2
+          },
+          {
+            "row": 9,
+            "col": 1
+          },
+          {
+            "row": 10,
+            "col": 1
+          },
+          {
+            "row": 10,
+            "col": 2
+          },
+          {
+            "row": 11,
+            "col": 2
+          },
+          {
+            "row": 11,
+            "col": 1
+          },
+          {
+            "row": 11,
+            "col": 0
+          },
+          {
+            "row": 12,
+            "col": 0
+          },
+          {
+            "row": 12,
+            "col": 1
+          },
+          {
+            "row": 12,
+            "col": 2
+          },
+          {
+            "row": 12,
+            "col": 3
+          },
+          {
+            "row": 11,
+            "col": 3
+          },
+          {
+            "row": 10,
+            "col": 3
+          },
+          {
+            "row": 10,
+            "col": 4
+          },
+          {
+            "row": 11,
+            "col": 4
+          },
+          {
+            "row": 12,
+            "col": 4
+          },
+          {
+            "row": 12,
+            "col": 5
+          },
+          {
+            "row": 12,
+            "col": 6
+          },
+          {
+            "row": 11,
+            "col": 6
+          },
+          {
+            "row": 10,
+            "col": 6
+          },
+          {
+            "row": 9,
+            "col": 6
+          },
+          {
+            "row": 9,
+            "col": 7
+          },
+          {
+            "row": 10,
+            "col": 7
+          },
+          {
+            "row": 11,
+            "col": 7
+          },
+          {
+            "row": 12,
+            "col": 7
+          },
+          {
+            "row": 12,
+            "col": 8
+          },
+          {
+            "row": 12,
+            "col": 9
+          },
+          {
+            "row": 11,
+            "col": 9
+          },
+          {
+            "row": 11,
+            "col": 10
+          },
+          {
+            "row": 10,
+            "col": 10
+          },
+          {
+            "row": 10,
+            "col": 9
+          },
+          {
+            "row": 9,
+            "col": 9
+          },
+          {
+            "row": 9,
+            "col": 8
+          },
+          {
+            "row": 8,
+            "col": 8
+          },
+          {
+            "row": 7,
+            "col": 8
+          },
+          {
+            "row": 6,
+            "col": 8
+          },
+          {
+            "row": 6,
+            "col": 9
+          },
+          {
+            "row": 7,
+            "col": 9
+          },
+          {
+            "row": 8,
+            "col": 9
+          },
+          {
+            "row": 8,
+            "col": 10
+          },
+          {
+            "row": 7,
+            "col": 10
+          },
+          {
+            "row": 7,
+            "col": 11
+          },
+          {
+            "row": 6,
+            "col": 11
+          },
+          {
+            "row": 6,
+            "col": 10
+          },
+          {
+            "row": 5,
+            "col": 10
+          },
+          {
+            "row": 4,
+            "col": 10
+          },
+          {
+            "row": 4,
+            "col": 11
+          },
+          {
+            "row": 3,
+            "col": 11
+          },
+          {
+            "row": 3,
+            "col": 10
+          },
+          {
+            "row": 2,
+            "col": 10
+          },
+          {
+            "row": 1,
+            "col": 10
+          },
+          {
+            "row": 1,
+            "col": 9
+          },
+          {
+            "row": 0,
+            "col": 9
+          },
+          {
+            "row": 0,
+            "col": 10
+          },
+          {
+            "row": 0,
+            "col": 11
+          },
+          {
+            "row": 1,
+            "col": 11
+          },
+          {
+            "row": 1,
+            "col": 12
+          },
+          {
+            "row": 2,
+            "col": 12
+          },
+          {
+            "row": 3,
+            "col": 12
+          },
+          {
+            "row": 4,
+            "col": 12
+          },
+          {
+            "row": 5,
+            "col": 12
+          },
+          {
+            "row": 6,
+            "col": 12
+          },
+          {
+            "row": 7,
+            "col": 12
+          },
+          {
+            "row": 8,
+            "col": 12
+          },
+          {
+            "row": 8,
+            "col": 11
+          },
+          {
+            "row": 9,
+            "col": 11
+          },
+          {
+            "row": 9,
+            "col": 12
+          },
+          {
+            "row": 10,
+            "col": 12
+          },
+          {
+            "row": 11,
+            "col": 12
+          },
+          {
+            "row": 12,
+            "col": 12
+          }
+        ]
+      },
+      "validationMetadata": {
+        "pathLength": 115,
+        "hasSolution": true
+      }
+    },
+    {
+      "id": "2026-11-24-anagrame",
+      "type": "anagrame",
+      "title": "Anagrame",
+      "description": "Rearanjează literele și descoperă cuvintele ascunse.",
+      "difficulty": "usor",
+      "estimatedMinutes": 3,
+      "seed": "careu:2026-11-24:v6:anagrame",
+      "instructions": "Fiecare rând conține literele amestecate ale unui cuvânt românesc. Scrie cuvântul corect — diacriticele nu sunt necesare.",
+      "hints": [],
+      "puzzle": {
+        "items": [
+          {
+            "scrambled": "NTOI",
+            "length": 4
+          },
+          {
+            "scrambled": "GMIEN",
+            "length": 5
+          },
+          {
+            "scrambled": "IHCS",
+            "length": 4
+          },
+          {
+            "scrambled": "NSITE",
+            "length": 5
+          }
+        ],
+        "theme": "Lumea sportului"
+      },
+      "solution": {
+        "answers": [
+          "ÎNOT",
+          "MINGE",
+          "SCHI",
+          "TENIS"
+        ]
+      },
+      "validationMetadata": {
+        "averageLength": 4.5
+      }
+    }
+  ],
+  "fallbacks": {
+    "used": true,
+    "aiSource": "local-theme",
+    "swappedGames": [],
+    "notes": [
+      "Pachet construit fără AI, cu temă locală și jocuri algoritmice.",
+      "Verificarea anti-repetare a fost relaxată pentru a nu lăsa ziua goală."
+    ]
+  },
+  "contentHash": "b2ab51908187537a75d2d87671c2301eef239e2835af338a9a60d187dd144077",
+  "validation": {
+    "passed": true,
+    "checks": [
+      {
+        "stage": "01-structura-json",
+        "passed": true
+      },
+      {
+        "stage": "02-schema-zod",
+        "passed": true
+      },
+      {
+        "stage": "03-ortografie",
+        "passed": true
+      },
+      {
+        "stage": "04-dictionar",
+        "passed": true
+      },
+      {
+        "stage": "05-duplicate-in-pachet",
+        "passed": true
+      },
+      {
+        "stage": "06-cuvinte-interzise",
+        "passed": true
+      },
+      {
+        "stage": "07-lungimi",
+        "passed": true
+      },
+      {
+        "stage": "08-intersectii",
+        "passed": true
+      },
+      {
+        "stage": "09-solver-independent",
+        "passed": true
+      },
+      {
+        "stage": "10-solutie-unica",
+        "passed": true
+      },
+      {
+        "stage": "11-dificultate",
+        "passed": true
+      },
+      {
+        "stage": "12-hash-continut",
+        "passed": true
+      },
+      {
+        "stage": "13-arhiva-dedup",
+        "passed": true,
+        "detail": "fără index (sărit)"
+      },
+      {
+        "stage": "14-test-randare",
+        "passed": true
+      }
+    ],
+    "validatedAt": "2026-11-10T04:37:00.130Z",
+    "validatorVersion": 1
+  }
+}
