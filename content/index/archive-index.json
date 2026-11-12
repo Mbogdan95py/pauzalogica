@@ -6943,5 +6943,59 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-11-26",
+    "title": "Viața la oraș — provocările zilei",
+    "theme": "oras",
+    "contentHash": "8048d631384bd951f6d139b46099e85b922dff362ca66d9ba364eec94297a3c8",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-11-26-sudoku",
+        "type": "sudoku",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-26-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-26-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-26-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-26-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-26-cuvant-misterios",
+        "type": "cuvant-misterios",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-26-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-26-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-26-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      }
+    ]
   }
 ]
