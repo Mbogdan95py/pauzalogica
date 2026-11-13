@@ -6997,5 +6997,54 @@
         "difficulty": "mediu"
       }
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "title": "În familie — provocările zilei",
+    "theme": "familie",
+    "contentHash": "9386d4500fe8ee03e6406c13f40c00e77438708c27d0abce705ade66c85c0af4",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-11-27-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-27-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-27-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-27-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-27-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-27-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-27-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-27-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
   }
 ]
