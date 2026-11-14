@@ -7046,5 +7046,54 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "title": "Pe hartă — provocările zilei",
+    "theme": "geografie",
+    "contentHash": "1d4a84b6c5419c8ac7137dfd17f7fe372db5d0ebe0ea06b22be6bc9183cbaec2",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-11-28-sudoku",
+        "type": "sudoku",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-28-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-28-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-28-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-28-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-11-28-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-11-28-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-11-28-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      }
+    ]
   }
 ]
