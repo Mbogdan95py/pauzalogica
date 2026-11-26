@@ -7664,5 +7664,54 @@
         "difficulty": "usor"
       }
     ]
+  },
+  {
+    "date": "2026-12-10",
+    "title": "Garderoba — provocările zilei",
+    "theme": "imbracaminte",
+    "contentHash": "1a5ca5aa4d9c54877fefaa45d27badabe3c4f19305b1a57e4cccc0432524689d",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-12-10-sudoku",
+        "type": "sudoku",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-12-10-rebus",
+        "type": "rebus",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-12-10-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-12-10-nonograma",
+        "type": "nonograma",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-12-10-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-12-10-anagrame",
+        "type": "anagrame",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-12-10-kakuro",
+        "type": "kakuro",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-12-10-labirint",
+        "type": "labirint",
+        "difficulty": "greu"
+      }
+    ]
   }
 ]
