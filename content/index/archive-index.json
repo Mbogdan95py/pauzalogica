@@ -7713,5 +7713,54 @@
         "difficulty": "greu"
       }
     ]
+  },
+  {
+    "date": "2026-12-11",
+    "title": "Note și melodii — provocările zilei",
+    "theme": "muzica",
+    "contentHash": "43321ab0da74d17d5589fd3e0e06822baaf354250bdca4529b9fd3f1c1e170b6",
+    "fallbackUsed": true,
+    "games": [
+      {
+        "id": "2026-12-11-sudoku",
+        "type": "sudoku",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-12-11-rebus",
+        "type": "rebus",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-12-11-cuvinte-ascunse",
+        "type": "cuvinte-ascunse",
+        "difficulty": "usor"
+      },
+      {
+        "id": "2026-12-11-nonograma",
+        "type": "nonograma",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-12-11-provocare-rapida",
+        "type": "provocare-rapida",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-12-11-labirint",
+        "type": "labirint",
+        "difficulty": "mediu"
+      },
+      {
+        "id": "2026-12-11-kakuro",
+        "type": "kakuro",
+        "difficulty": "greu"
+      },
+      {
+        "id": "2026-12-11-anagrame",
+        "type": "anagrame",
+        "difficulty": "usor"
+      }
+    ]
   }
 ]
